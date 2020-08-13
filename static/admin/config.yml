@@ -11,8 +11,6 @@ collections:
     folder: 'content/posts'
     create: true
     slug: '{{slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
@@ -25,8 +23,6 @@ collections:
     folder: 'content/projects'
     create: true
     slug: '{{slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
@@ -38,8 +34,6 @@ collections:
     folder: 'content/pages'
     create: true
     slug: '{{slug}}'
-    editor:
-      preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'SEO Title', name: 'seo_title', widget: 'string' }
