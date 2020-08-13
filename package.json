@@ -1,0 +1,22 @@
+{
+  "name": "greg_on_data",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "author": "Greg",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.6.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "nuxt": "^2.0.0",
+    "typeit": "^7.0.4",
+    "vue-moment": "^4.1.0"
+  },
+  "devDependencies": {}
+}
