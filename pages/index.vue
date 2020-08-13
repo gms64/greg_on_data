@@ -25,13 +25,16 @@ import TypeIt from 'typeit'
 export default {
   components: {
   },
-  head: {
-    title: 'Greg on Data',
-    meta: [
-    { hid: 'description',
-    name: 'description',
-    content: 'A personal website created with nuxt, netlify, and a lot of coffee' }
-    ]
+  head() {
+    return {
+      title: 'Greg on Data',
+      meta: [
+      { hid: 'description',
+      name: 'description',
+      content: 'A personal website created with nuxt, netlify, and a lot of coffee' }
+      ],
+      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
   },
   mounted() {
     new TypeIt("#type-it-text", {
