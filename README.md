@@ -1,22 +1,13 @@
-# nuxt-blog-starter
+# greg on data
 
-> my personal starting point for a nuxt-based blog
+> my personal website to muse on completely random subjects
 
 ## Build Setup
 
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+Built with:
+- Nuxt (& Nuxt-Content)
+- Vue
+- Netlify
+- Netlify CMS
+- Skeleton CSS
+- TypeIt
