@@ -1,10 +1,10 @@
 
 export default {
   mode: 'universal',
+  target: 'static',
   /*
   ** Headers of the page
   */
-  target: 'static',
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -40,6 +40,7 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
+    '@nuxtjs/dotenv',
     // ['@nuxtjs/google-analytics', {
     //   id: 'UA-xxxxxxxxx-1'
     // }]

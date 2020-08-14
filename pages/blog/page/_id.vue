@@ -20,21 +20,23 @@ import VueMoment from 'vue-moment'
 import PrevNextPg from "~/components/PrevNextPg.vue"
 
 export default {
-  components: {
-      PrevNextPg
-  },
-  head: {
-      title: 'Blog | greg on data',
-      meta: [
-          { hid: 'description', 
-          name: 'description', 
-          content: 'greg on data Blog - Trying to make sense of book data...' }
-      ]
+    components: {
+        PrevNextPg
+    },
+  head() {
+      return {
+          title: 'Blog - Page ' + this.pgNum + ' | greg on data',
+          meta: [
+              { hid: 'description', 
+              name: 'description', 
+              content: 'greg on data Blog - Trying to make sense of book data...' }
+          ]
+      }
   },
   async asyncData({ $content, params, env }) {
     const postsPerPage = +env.POSTS_PER_PAGE || 5
-    const pgNum = 1
-    const prevPg = null
+    const pgNum = +params.id
+    const prevPg = pgNum - 1
     const articles = await $content('posts')
       .only(['title', 'preview', 'slug','createdAt'])
       .sortBy('createdAt', 'desc')
@@ -58,7 +60,8 @@ export default {
     return {
       articles,
       prevPg,
-      nextPg
+      nextPg,
+      pgNum
     }
   }
 
