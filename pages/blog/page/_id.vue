@@ -34,6 +34,8 @@ export default {
       }
   },
   async asyncData({ $content, params, env }) {
+    // Retrieves current posts for the page.  
+    // Also looks one page ahead to see if we should add a 'Next Page' link
     const postsPerPage = +env.POSTS_PER_PAGE || 5
     const pgNum = +params.id
     const prevPg = pgNum - 1
@@ -44,7 +46,7 @@ export default {
       .limit(postsPerPage)
       .fetch()
 
-    // Check if there are articles after this page
+    // Get the next group of articles after this page
     const nextArticles = await $content('posts')
       .only(['title', 'preview', 'slug','createdAt'])
       .sortBy('createdAt', 'desc')
@@ -52,11 +54,13 @@ export default {
       .limit(postsPerPage)
       .fetch()
     
+    // nextPg is null unless there are articles after this page
     let nextPg = null
     if (nextArticles.length >= 1) {
         nextPg = pgNum + 1
     }
 
+    // Returns current page articles, as well as the prevPg, nextPg, and pgNum vars
     return {
       articles,
       prevPg,

@@ -1,7 +1,7 @@
 <template>
 <div>
-  <hr class="mb8">
-  <div class="row mb20">
+  <hr class="mb0">
+  <div class="row m20">
     <span v-if="prevPg" class="u-pull-left">
         <NuxtLink v-if="prevPg==1" :to="'/blog'">
             Previous Page

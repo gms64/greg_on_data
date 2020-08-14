@@ -2,7 +2,7 @@
 
 > my personal website to muse on completely random subjects
 
-## Build Setup
+## Notes
 
 Built with:
 - Nuxt (& Nuxt-Content)
@@ -11,3 +11,8 @@ Built with:
 - Netlify CMS
 - Skeleton CSS
 - TypeIt
+- A few other packages
+
+## How to set up your own blog
+
+To do: Document full process from cloning this repo to deploying on Netlify
