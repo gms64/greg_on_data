@@ -26,4 +26,4 @@ I have basically no other online profile that you should care about, but feel fr
 - [Github](https://github.com/gms64)
 - [Reddit](https://www.reddit.com/user/greg_on_data)
 
-With all that said, happy browsing! If you have any comments, feel free to drop me a line on Twitter.
+With all that said, happy browsing! If you have any comments, feel free to drop me a line on the [contact](/contact) page.
