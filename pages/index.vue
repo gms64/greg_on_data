@@ -37,17 +37,16 @@ export default {
     };
   },
   mounted() {
-    new TypeIt("#type-it-text", {
-      strings: ["welcome to my completely pointless site"],
-      speed: 40,
-      waitUntilVisible: true
-    })
+    new TypeIt("#type-it-text")
+    .type("welcome to the danger zone", {speed: 60, delay: 200})
+    .delete(15, {delay: 400})
+    .type("my personal site", {speed: 60})
     .break({delay: 300})
-    .type("can i interest you in...", {speed: 40})
+    .type("can i interest you in...", {speed: 60})
     .break({delay: 100})
     .type("<a href='/blog'>some posts</a>", {speed: 60})
     .break({delay: 200})
-    .type("or maybe", {speed: 50})
+    .type("or maybe", {speed: 60})
     .break({delay: 200})
     .type("<a href='/projects'>some projects of mine</a>", {speed: 60})
     .go();
