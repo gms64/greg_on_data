@@ -11,11 +11,16 @@
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const page = await $content('pages','about').fetch()
-    return {
-      page
+  async asyncData({ $content, params, error }) {
+    try {
+      const page = await $content('pages',params.slug).fetch()
+      return {
+        page
+      }
+    } catch {
+        error({ statusCode: 404, message: 'Page not found' })
     }
+    
   }
 }
 </script>

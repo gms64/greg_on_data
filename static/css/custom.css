@@ -331,3 +331,7 @@ table {
   align-items: center;
   text-align: center;
 }
+
+#type-it-text {
+  min-height: 200px;
+}

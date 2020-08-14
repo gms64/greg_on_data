@@ -12,7 +12,7 @@
       <br>
       <br>
       <p>
-        random musings of a confused developer / data scientist
+        infrequently updated musings of a confused developer / data scientist
       </p>
       <span class="sm-txt"><em>I wouldn't read too much into anything here...</em></span>
     </div>

@@ -8,6 +8,4 @@ date: 2020-08-13T03:17:57.500Z
 ---
 ### Hi All
 
-Just messing around with this blog at the moment.
-
-This is a test.
+Test post to make sure the functionality is working.
