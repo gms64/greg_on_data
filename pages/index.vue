@@ -16,6 +16,7 @@
       </p>
       <span class="sm-txt"><em>I wouldn't read too much into anything here...</em></span>
     </div>
+    <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </div>
 </template>
 
@@ -27,13 +28,12 @@ export default {
   },
   head() {
     return {
-      title: 'Greg on Data',
+      title: 'greg on data',
       meta: [
       { hid: 'description',
       name: 'description',
       content: 'A personal website created with nuxt, netlify, and a lot of coffee' }
-      ],
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+      ]
     };
   },
   mounted() {

@@ -151,7 +151,7 @@ tbody > tr:hover {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 320px;
+    max-height: 480px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {
