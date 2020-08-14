@@ -14,31 +14,26 @@
 </template>
 
 <script>
-  export default {
-    head: {
-        title: 'Blog | greg on data',
-        meta: [
-            { hid: 'description', 
-            name: 'description', 
-            content: 'greg on data Blog - Trying to make sense of book data...' }
-        ]
-    },
-    async asyncData({ $content, params }) {
-      const articles = await $content('projects', params.slug)
-        .only(['title', 'preview', 'slug','createdAt'])
-        .sortBy('createdAt', 'desc')
-        .fetch()
 
-      return {
-        articles
-      }
-    },
-    methods: {
-        formatDate(date) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(date).toLocaleDateString('en', options)
-        }
+export default {
+  head: {
+      title: 'Blog | greg on data',
+      meta: [
+          { hid: 'description', 
+          name: 'description', 
+          content: 'greg on data Blog - Trying to make sense of book data...' }
+      ]
+  },
+  async asyncData({ $content, params }) {
+    const articles = await $content('projects', params.slug)
+      .only(['title', 'preview', 'slug','createdAt'])
+      .sortBy('createdAt', 'desc')
+      .fetch()
+
+    return {
+      articles
     }
-
   }
+
+}
 </script>

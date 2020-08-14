@@ -2,15 +2,11 @@
   <div class="home-container">
     <div class="u-full-width">
       <h1 class="site-title">
-        greg<span class="dark-gray-color">/</span>data
+          greg<span class="dark-gray-color">/</span>data
       </h1>
-      <br>
-      <br>
       <h5 class="subtitle" id="type-it-text">
         <!-- Fancy Typed Text -->
       </h5>
-      <br>
-      <br>
       <p>
         infrequently updated musings of a confused developer / data scientist
       </p>
@@ -32,7 +28,7 @@ export default {
       meta: [
       { hid: 'description',
       name: 'description',
-      content: 'A personal website created with nuxt, netlify, and a lot of coffee' }
+      content: 'a personal website created with nuxt, netlify, and a lot of coffee' }
       ]
     };
   },

@@ -3,7 +3,7 @@
         <nuxt-link to='/projects'>Back to Projects</nuxt-link>
         <article>
             <h1 class="m20">{{ article.title }}</h1>
-            <p><em>{{ formatDate(article.createdAt) }}</em></p>
+            <p><em>{{ article.createdAt | moment("MMMM Do, YYYY") }}</em></p>
             <hr>
             <!-- <p>Last Updated: {{ formatDate(article.updatedAt) }}</p> -->
 
@@ -15,6 +15,7 @@
 
 
 <script>
+import VueMoment from 'vue-moment'
 import PrevNext from "~/components/PrevNext.vue"
 
   export default {
@@ -48,12 +49,6 @@ import PrevNext from "~/components/PrevNext.vue"
             }
         } catch {
             error({ statusCode: 404, message: 'Page not found' })
-        }
-    },
-    methods: {
-        formatDate(date) {
-        const options = { year: 'numeric', month: 'long', day: 'numeric' }
-        return new Date(date).toLocaleDateString('en', options)
         }
     }
   }
