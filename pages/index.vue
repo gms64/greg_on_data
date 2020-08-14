@@ -39,7 +39,7 @@ export default {
   mounted() {
     new TypeIt("#type-it-text")
     .type("welcome to the danger zone", {speed: 60, delay: 200})
-    .delete(15, {delay: 400})
+    .delete(15, {delay: 200})
     .type("my personal site", {speed: 60})
     .break({delay: 300})
     .type("can i interest you in...", {speed: 60})

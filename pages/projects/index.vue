@@ -3,11 +3,11 @@
     <h1>Projects</h1>
     <hr>
     <div v-for="article of articles" :key="article.slug">
-        <NuxtLink :to="{ name: 'projects-slug', params: { slug: article.slug } }">
-            <div>
-            <h3 class="mb8">{{ article.title }}</h3>
-            </div>
-        </NuxtLink>
+        <h3 class="mb8">
+          <NuxtLink :to="{ name: 'projects-slug', params: { slug: article.slug } }">
+            {{ article.title }}
+          </NuxtLink>
+        </h3>
         <p>{{ article.preview }}</p>
     </div>
   </div>
