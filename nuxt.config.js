@@ -44,9 +44,9 @@ export default {
   */
   buildModules: [
     '@nuxtjs/dotenv',
-    // ['@nuxtjs/google-analytics', {
-    //   id: 'UA-xxxxxxxxx-1'
-    // }]
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-174474647-2'
+    }]
   ],
   /*
   ** Nuxt.js modules
