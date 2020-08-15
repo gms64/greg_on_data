@@ -5,11 +5,13 @@
     <div v-for="article of articles" :key="article.slug">
         <h3 class="mb10">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-          {{ article.title }}
+              {{ article.title }}
           </NuxtLink>
         </h3>
         <p><em>{{ article.createdAt | moment("MMMM Do, YYYY") }}</em></p>
         <p>{{ article.preview }}</p>
+        <p><NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">Read More</NuxtLink></p>
+        <br>
     </div>
     <PrevNextPg :prevPg="prevPg" :nextPg="nextPg"/>
   </div>

@@ -246,6 +246,10 @@ table {
   min-height: 200px;
 }
 
-.main-content a {
+.main-content a, .highlighter {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #37ff1436 65%);
+}
+
+.title-highlighter {
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #37ff1436 65%);
 }
