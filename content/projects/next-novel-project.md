@@ -8,6 +8,8 @@ seo_desc: A site for finding books, powered by Goodreads data
 
 This was a sideproject of mine that I built originally just to help me find a few good books to read.  The site is built with a combination of [Nuxt](https://nuxtjs.org/), [Express](https://expressjs.com/), [Sequelize](https://sequelize.org/), and [Postgres](https://www.postgresql.org/). It runs on top of an [AWS Lightsail](https://aws.amazon.com/lightsail/) instance using [Dokku](https://github.com/dokku/dokku).
 
+...and yes, the design of this website is *very* similar to that one... I'm a bit lazy in that regard...
+
 ### Screenshots
 
 ![Next Novel Project](/img/nextnovelproject.png)

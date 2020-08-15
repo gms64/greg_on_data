@@ -6,8 +6,8 @@
           <span class="footer-link u-pull-right"><nuxt-link to="/about">about</nuxt-link></span>
           <span class="footer-link u-pull-right"><nuxt-link to="/contact">contact</nuxt-link>&nbsp;&nbsp;</span>
           <span class="footer-link u-pull-right">
-            <a href="https://github.com/gms64">
-              <img style="color:#fff;" height="12" width="12" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" />
+            <a href="https://github.com/gms64" aria-label="Github" target="_blank">
+              <img style="color:#fff;" height="12" width="12" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="Github"/>
             </a>
             &nbsp;&nbsp;
           </span>
