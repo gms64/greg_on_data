@@ -1,17 +1,26 @@
 <template>
-    <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <span class="copyright-text">&#169; gms64</span>
-          <span class="footer-link u-pull-right"><nuxt-link to="/about">about</nuxt-link></span>
-          <span class="footer-link u-pull-right"><nuxt-link to="/contact">contact</nuxt-link>&nbsp;&nbsp;</span>
-          <span class="footer-link u-pull-right">
-            <a href="https://github.com/gms64" aria-label="Github" target="_blank">
-              <img style="color:#fff;" height="12" width="12" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="Github"/>
-            </a>
-            &nbsp;&nbsp;
-          </span>
+  <footer>
+        <div class="row middle-xs">
+            <div class="col-xs-4 center-xs middle-xs">
+              <div class="box">
+                <span class="copyright-text">&#169; gms64</span>
+              </div>
+            </div>
+            <div class="col-xs-4 center-xs middle-xs">
+              <div class="box">
+                <span class="footer-link">
+                  <a href="https://github.com/gms64" aria-label="Github" target="_blank">
+                    <img class="icon-filter" style="color:#fff;" height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg" alt="Github"/>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div class="col-xs-4 center-xs middle-xs">
+              <div class="box">
+                <span class="footer-link"><nuxt-link to="/about">about</nuxt-link></span>&nbsp;&nbsp;
+                <span class="footer-link"><nuxt-link to="/contact">contact</nuxt-link></span>
+              </div>
+            </div>
         </div>
-      </div>
-    </footer>
+  </footer>
 </template>

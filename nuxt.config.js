@@ -19,7 +19,10 @@ export default {
       { rel: "apple-touch-icon", sizes:"180x180", href:"/favicon/apple-touch-icon.png" },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon-32x32.png' },
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css', type: 'text/css'},
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Rajdhani:wght@500&display=swap', type: 'text/css'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&family=Rajdhani:wght@500&display=swap', type: 'text/css'},
+      { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css', type: 'text/css'},
+      
+
     ]
   },
   /*
@@ -30,7 +33,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '@/assets/css/skeleton-custom.css',
+    '@/assets/css/pile-of-bones.css',
     '@/assets/css/custom.css'
   ],
   /*

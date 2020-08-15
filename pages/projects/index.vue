@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <h1>Projects</h1>
     <hr>
     <div v-for="article of articles" :key="article.slug">

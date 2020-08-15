@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <nuxt-link to='/projects'>Back to Projects</nuxt-link>
         <article>
             <h1 class="m20">{{ article.title }}</h1>

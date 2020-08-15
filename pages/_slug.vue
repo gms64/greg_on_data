@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container-fluid">
         <article>
             <h1 class="m20">{{ page.title }}</h1>
             <hr>
