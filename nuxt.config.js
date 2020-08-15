@@ -30,8 +30,8 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/static/css/skeleton.css',
-    '~/static/css/custom.css'
+    '@/assets/css/skeleton-custom.css',
+    '@/assets/css/custom.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -44,6 +44,7 @@ export default {
   */
   buildModules: [
     '@nuxtjs/dotenv',
+    '@nuxtjs/color-mode',
     ['@nuxtjs/google-analytics', {
       id: 'UA-174474647-2'
     }]
@@ -57,6 +58,7 @@ export default {
   /*
   ** Build configuration
   */
+ 
   build: {
     /*
     ** You can extend webpack config here

@@ -1,0 +1,49 @@
+.title-area {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.site-title {
+    color: #086375;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.dark-gray-color {
+  color: #333333;
+}
+
+.page-title {
+  font-size: 1.8em;
+}
+
+.mt0 {
+  margin-top: 0px
+}
+.mb0 {
+  margin-bottom: 0px
+}
+.mt10 {
+  margin-top: 10px
+}
+.mb10 {
+  margin-bottom: 10px
+}
+.m20 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+
+.home-container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#type-it-text {
+  min-height: 200px;
+}
+

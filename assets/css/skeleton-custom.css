@@ -10,6 +10,7 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
+- Color Definitions
 - Grid
 - Base Styles
 - Typography
@@ -23,7 +24,35 @@
 - Utilities
 - Clearing
 - Media Queries
+- Custom Code
 */
+
+/* Colors, including dark / sepia mode */
+:root {
+  --color: #243746;
+  --color-primary: #086375;
+  --bg: #ffffff;
+  --bg-secondary: #f8f8f8;
+  --border-color: #ddd;
+  --underline-color: #37ff1436;
+}
+
+.dark-mode {
+  --color: #f4f4f4;
+  --color-primary: #086375;
+  --bg: #011114;
+  --bg-secondary: #032229;
+  --border-color: #0d2538;
+}
+.sepia-mode {
+  --color: #433422;
+  --color-primary: #086375;
+  --bg: #f1e7d0;
+  --bg-secondary: #eae0c9;
+  --border-color: #ded0bf;
+}
+
+
 
 
 /* Grid
@@ -119,13 +148,17 @@
   html is set to 62.5% so that all the REM measurements throughout Skeleton
   are based on 10px sizing. So basically 1.5rem = 15px :) */
   html {
-    font-size: 62.5%; }
+    font-size: 62.5%; 
+  }
   body {
     font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
     line-height: 1.6;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'Quicksand', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222; }
+    color: var(--color);
+    background-color: var(--bg);
+    transition: background-color 0.4s, color 0.4s;
+   }
   
   
   /* Typography
@@ -152,15 +185,21 @@
   }
   
   p {
-    margin-top: 0; }
+    margin-top: 0;
+  }
+  p, li {
+      font-size: 1.15em;
+  }
   
   
   /* Links
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   a {
-    color: #086375; }
+    color: var(--color-primary);
+    text-decoration: none;
+   }
   a:hover {
-    color: #086375; }
+    color: var(--color-primary) }
   
   /* Buttons
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -172,7 +211,7 @@
     display: inline-block;
     height: 38px;
     padding: 0 30px;
-    color: #555;
+    color: var(--color);
     text-align: center;
     font-size: 11px;
     font-weight: 600;
@@ -183,7 +222,7 @@
     white-space: nowrap;
     background-color: transparent;
     border-radius: 4px;
-    border: 1px solid #bbb;
+    border: 1px solid var(--border-color);
     cursor: pointer;
     box-sizing: border-box; }
   .button:hover,
@@ -196,8 +235,8 @@
   input[type="submit"]:focus,
   input[type="reset"]:focus,
   input[type="button"]:focus {
-    color: #333;
-    border-color: #888;
+    color: var(--color);
+    border-color: var(--border-color);
     outline: 0; }
   .button.button-primary,
   button.button-primary,
@@ -205,8 +244,8 @@
   input[type="reset"].button-primary,
   input[type="button"].button-primary {
     color: #FFF;
-    background-color: #086375;
-    border-color: #086375; }
+    background-color: var(--color-primary);
+    border-color: var(--color-primary); }
   .button.button-primary:hover,
   button.button-primary:hover,
   input[type="submit"].button-primary:hover,
@@ -218,8 +257,8 @@
   input[type="reset"].button-primary:focus,
   input[type="button"].button-primary:focus {
     color: #FFF;
-    background-color: #086375;
-    border-color: #086375; }
+    background-color: var(--color-primary);
+    border-color: var(--color-primary); }
   
   
   /* Forms
@@ -235,8 +274,8 @@
   select {
     height: 38px;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
-    background-color: #fff;
-    border: 1px solid #D1D1D1;
+    background-color: var(--bg);
+    border: 1px solid var(--border-color);
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box; }
@@ -265,7 +304,7 @@
   input[type="password"]:focus,
   textarea:focus,
   select:focus {
-    border: 1px solid #33C3F0;
+    border: 1px solid var(--color-primary);
     outline: 0; }
   label,
   legend {
@@ -310,22 +349,32 @@
     margin: 0 .2rem;
     font-size: 90%;
     white-space: nowrap;
-    background: #F1F1F1;
-    border: 1px solid #E1E1E1;
+    border: 1px solid var(--border-color);
     border-radius: 4px; }
   pre > code {
     display: block;
     padding: 1rem 1.5rem;
-    white-space: pre; }
-  
+    white-space: pre; 
+    border: 0px;
+  }
+
+  pre {
+    /* Have to use an important tag to override prism styles */
+    background: var(--bg-secondary) !important;
+    color: var(--color) !important;
+  }
   
   /* Tables
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  table {
+    width: 100%;
+    box-sizing: border-box;
+  }
   th,
   td {
     padding: 12px 15px;
     text-align: left;
-    border-bottom: 1px solid #E1E1E1; }
+    border-bottom: 1px solid var(--border-color); }
   th:first-child,
   td:first-child {
     padding-left: 0; }
@@ -376,7 +425,7 @@
     margin-top: 3rem;
     margin-bottom: 3.5rem;
     border-width: 0;
-    border-top: 1px solid #E1E1E1; }
+    border-top: 1px solid var(--border-color); }
   
   
   /* Clearing
@@ -415,3 +464,186 @@
   
   /* Larger than Desktop HD */
   @media (min-width: 1200px) {}
+
+
+  /* Image Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  p > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    max-width: 75%;  
+  }
+  
+  
+
+
+  /* Menu Styles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.header {
+  font-family: 'Rajdhani', sans-serif;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header li {
+  margin-bottom: 0px;
+  font-size: 1.25em;
+}
+
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: var(--bg-secondary);
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: var(--color);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: var(--color);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 480px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 48em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+
+/* Footer */
+.site-footer {
+  background-color: var(--bg-secondary);
+  padding:45px 0 20px;
+}
+.copyright-text {
+  font-size: .9em;
+}
+
+.half-break {
+  min-height: 50vh;
+}
+.qtr-break {
+  min-height: 25vh;
+}
+
+.footer-link {
+  font-size: .9em;
+}
+.footer-link > a {
+  color: var(--color);
+}
+
+/* Main Content Container / Link Highlighter */
+.main-content {
+  padding-top: 80px;
+  min-height: 85vh;
+}
+.main-content a, .highlighter {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--underline-color) 65%);
+}
+.title-highlighter {
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, var(--underline-color) 65%);
+}
+
+/* Color Helpers */
+.txt-color {
+  color: var(--color);
+}
+

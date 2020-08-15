@@ -2,7 +2,7 @@
   <div class="home-container">
     <div class="u-full-width">
       <h1 class="site-title">
-          greg<span class="dark-gray-color">/</span>data
+          greg<span class="txt-color">/</span>data
       </h1>
       <h5 class="subtitle" id="type-it-text">
         <!-- Fancy Typed Text -->
@@ -11,6 +11,10 @@
         infrequently updated musings of a confused developer / data scientist
       </p>
       <span class="sm-txt"><em>I wouldn't read too much into anything here...</em></span>
+
+      <div class="m20">
+        <ColorModePicker />
+      </div>
     </div>
     <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </div>
@@ -18,9 +22,12 @@
 
 <script>
 import TypeIt from 'typeit'
+import ColorModePicker from '@/components/ColorModePicker'
+
 
 export default {
   components: {
+    ColorModePicker
   },
   head() {
     return {
