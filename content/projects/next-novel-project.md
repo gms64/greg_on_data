@@ -12,6 +12,6 @@ This was a sideproject of mine that I built originally just to help me find a fe
 
 ### Screenshots
 
-![Next Novel Project](/img/nextnovelproject.png)
+![Next Novel Project](/img/next-novel-project.png)
 
-![Next Novel Project Fantasy Books](/img/nextnovelprojectfantasy.png)
+![Next Novel Project Fantasy Books](/img/next-novel-project-fantasy.png)
