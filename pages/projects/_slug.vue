@@ -3,9 +3,7 @@
         <nuxt-link to='/projects'>Back to Projects</nuxt-link>
         <article>
             <h1 class="m20">{{ article.title }}</h1>
-            <p><em>{{ article.createdAt | moment("MMMM Do, YYYY") }}</em></p>
             <hr>
-            <!-- <p>Last Updated: {{ formatDate(article.updatedAt) }}</p> -->
 
             <nuxt-content :document="article" />
             <prev-next :prev="prev" :next="next" />

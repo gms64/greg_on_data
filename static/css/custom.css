@@ -253,3 +253,8 @@ table {
 .title-highlighter {
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #37ff1436 65%);
 }
+
+p > img {
+  justify-content: center;
+  max-width: 75%;
+}
