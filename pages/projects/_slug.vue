@@ -6,7 +6,7 @@
             <hr>
 
             <nuxt-content :document="article" />
-            <prev-next :prev="prev" :next="next" />
+            <prev-next :prev="prev" :next="next" :postTypeSlug="'projects-slug'"/>
         </article>
     </div>
 </template>

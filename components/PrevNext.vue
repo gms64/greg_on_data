@@ -1,12 +1,11 @@
 <template>
 <div>
-  <hr class="mb8">
-  <div class="row mb20">
+  <hr class="mb0">
+  <div class="row m20">
     <span v-if="prev" class="u-pull-left">
       Previous: 
-      <NuxtLink
-      v-if="prev"
-      :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
+      <NuxtLink v-if="prev"
+      :to="{ name: postTypeSlug, params: { slug: prev.slug } }"
     >
       {{ prev.title }}
     </NuxtLink>
@@ -17,7 +16,7 @@
       Next: 
       <NuxtLink
         v-if="next"
-        :to="{ name: 'blog-slug', params: { slug: next.slug } }"
+        :to="{ name: postTypeSlug, params: { slug: next.slug } }"
         
       >
         {{ next.title }}
@@ -38,6 +37,10 @@
       next: {
         type: Object,
         default: () => null
+      },
+      postTypeSlug: {
+        type: String,
+        default: 'blog-slug'
       }
     }
   }
