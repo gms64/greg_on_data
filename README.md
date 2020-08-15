@@ -1,8 +1,8 @@
 # greg on data
 
-my personal website to muse on completely random subjects
+Live site: https://gregondata.com/
 
-Live site: https://happy-villani-981b53.netlify.app/
+my personal website to muse on completely random subjects
 
 ## Notes
 
@@ -21,4 +21,10 @@ Built with:
 
 ## How to set up your own blog using this as a template
 
-To do: Document full process from cloning this repo to deploying on Netlify
+*To Do*
+
+- [ ] Document full process from cloning this repo to deploying on Netlify
+
+## Other Projects
+
+- [Next Novel Project](https://nextnovelproject.com/)
