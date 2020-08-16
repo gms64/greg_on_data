@@ -1,17 +1,21 @@
 <template>
 <div>
+  <!-- Pagination for Blog Pages -->
   <hr class="mb0">
-  <div class="row m20">
-    <span v-if="prevPg" class="u-pull-left">
-        <NuxtLink v-if="prevPg==1" :to="'/blog'">
-            Previous Page
-        </NuxtLink>
-        <NuxtLink v-else :to="'/blog/page/'+prevPg">
-            Previous Page
-        </NuxtLink>
-    </span>
-    <span v-else>&nbsp;</span>
-    <span v-if="nextPg" class="u-pull-right">
+  <div class="row between-xs m20">
+    <div class="col-xs-6 start-xs">
+      <span v-if="prevPg" class="u-pull-left">
+          <NuxtLink v-if="prevPg==1" :to="'/blog'">
+              Previous Page
+          </NuxtLink>
+          <NuxtLink v-else :to="'/blog/page/'+prevPg">
+              Previous Page
+          </NuxtLink>
+      </span>
+      <span v-else>&nbsp;</span>
+    </div>
+    <div class="col-xs-6 end-xs">
+    <span v-if="nextPg">
       
       <NuxtLink
         v-if="nextPg"
@@ -21,6 +25,7 @@
       </NuxtLink>
     </span>
     <span v-else>&nbsp;</span>
+    </div>
   </div>
 </div>
 </template>
