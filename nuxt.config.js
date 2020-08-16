@@ -56,50 +56,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxt/content',
-    '@nuxtjs/feed' //@nuxt/content must go before @nuxtjs/feed
+    '@nuxt/content'
   ],
-
-  // Configure a feed for blog posts - uses @nuxtjs/feed
-  feed () {
-    const baseUrlArticles = 'https://gregondata.com/blog'
-    const baseLinkFeedArticles = '/feed'
-    const feedFormats = {
-      rss: { type: 'rss2', file: 'rss.xml' },
-      atom: { type: 'atom1', file: 'atom.xml' },
-      json: { type: 'json1', file: 'feed.json' },
-    }
-    const { $content } = require('@nuxt/content')
-
-    const createFeedArticles = async function (feed) {
-      feed.options = {
-        title: 'Greg on Data',
-        description: 'I write about things',
-        link: baseUrlArticles,
-      }
-      const articles = await $content('posts').fetch()
-
-      articles.forEach((article) => {
-        const url = `${baseUrlArticles}/${article.slug}`
-
-        feed.addItem({
-          title: article.title,
-          id: url,
-          link: url,
-          date: (new Date(article.createdAt)),
-          description: article.summary,
-          content: article.summary,
-        })
-      })
-    }
-
-    return Object.values(feedFormats).map(({ file, type }) => ({
-      path: `${baseLinkFeedArticles}/${file}`,
-      type: type,
-      create: createFeedArticles,
-    }))
-  },
-
   /*
   ** Build configuration
   */
