@@ -1,11 +1,11 @@
 <template>
   <div class="container-fluid">
-    <h1 class="m20">Projects</h1>
+    <h1 class="m20">projects</h1>
     <hr>
     <div v-for="article of articles" :key="article.slug">
         <h3 class="mb8">
           <NuxtLink :to="{ name: 'projects-slug', params: { slug: article.slug } }">
-            {{ article.title }}
+            {{ article.title.toLowerCase() }}
           </NuxtLink>
         </h3>
         <p>{{ article.summary }}</p>

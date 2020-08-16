@@ -1,7 +1,7 @@
 ---
-title: About
-seo_title: Test SEO
-seo_desc: Test SEO Desc
+title: about
+seo_title: About
+seo_desc: My personal site on technology, data, and other random musings.
 ---
 
 Hey, you there.  No idea how you found this place, but hopefully you find the site interesting.

@@ -1,14 +1,14 @@
 <template>
   <div class="container-fluid">
-    <h1 class="m20">Blog</h1>
+    <h1 class="m20">blog</h1>
     <hr>
     <div v-for="article of articles" :key="article.slug">
         <h3 class="mb10">
           <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-              {{ article.title }}
+              {{ article.title.toLowerCase() }}
           </NuxtLink>
         </h3>
-        <p><em>{{ article.createdAt | moment("MMMM Do, YYYY") }}</em></p>
+        <p><em>{{ (article.date || article.createdAt) | moment("MMMM Do, YYYY") }}</em></p>
         <p>{{ article.summary }}</p>
         <p><NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">Read More</NuxtLink></p>
         <br>
@@ -40,16 +40,16 @@ export default {
     const pgNum = 1 // Since this is the first page of the blog
     const prevPg = null // No prevPg variable
     const articles = await $content('posts')
-      .only(['title', 'summary', 'slug','createdAt'])
-      .sortBy('createdAt', 'desc')
+      .only(['title', 'summary', 'slug','createdAt','date'])
+      .sortBy('date', 'desc')
       .skip(postsPerPage*(pgNum-1))
       .limit(postsPerPage)
       .fetch()
 
     // Get the next group of articles after this page
     const nextArticles = await $content('posts')
-      .only(['title', 'summary', 'slug','createdAt'])
-      .sortBy('createdAt', 'desc')
+      .only(['title', 'summary', 'slug','createdAt','date'])
+      .sortBy('date', 'desc')
       .skip(postsPerPage*(pgNum))
       .limit(postsPerPage)
       .fetch()

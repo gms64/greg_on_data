@@ -1,7 +1,7 @@
 ---
-title: Contact
-seo_title: Contact Page
-seo_desc: Contact Me
+title: contact
+seo_title: Contact
+seo_desc: Contact Page for my personal website
 ---
 
 Feel free to contact me via the form below!

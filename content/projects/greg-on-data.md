@@ -1,5 +1,5 @@
 ---
-title: Greg on Data
+title: greg on data
 seo_title: Greg on Data
 summary: A personal (static) website built using mainly Nuxt & Netlify
 seo_desc: A personal static website built using mainly Nuxt & Netlify. Very high performance on tests with Google Lighthouse.

@@ -1,5 +1,5 @@
 ---
-title: Next Novel Project
+title: next novel project
 seo_title: Next Novel Project
 summary: A site for finding books, powered by Goodreads data
 seo_desc: A site for finding books, powered by Goodreads data
