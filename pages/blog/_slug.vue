@@ -35,6 +35,7 @@ import PrevNext from "~/components/PrevNext.vue"
     async asyncData({ $content, params, error }) {
         try {
             const article = await $content('posts', params.slug).fetch()
+            console.log(article)
 
             const [prev, next] = await $content('posts')
             .only(['title', 'slug'])

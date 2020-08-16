@@ -1,7 +1,7 @@
 ---
 title: Greg on Data
 seo_title: Greg on Data
-preview: A personal (static) website built using mainly Nuxt & Netlify
+summary: A personal (static) website built using mainly Nuxt & Netlify
 seo_desc: A personal static website built using mainly Nuxt & Netlify. Very high performance on tests with Google Lighthouse.
 ---
 ### [greg on data](https://gregondata.com/)

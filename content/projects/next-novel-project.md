@@ -1,7 +1,7 @@
 ---
 title: Next Novel Project
 seo_title: Next Novel Project
-preview: A site for finding books, powered by Goodreads data
+summary: A site for finding books, powered by Goodreads data
 seo_desc: A site for finding books, powered by Goodreads data
 ---
 ### [next novel project](https://nextnovelproject.com/)

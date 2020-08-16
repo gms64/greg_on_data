@@ -1,6 +1,6 @@
 <template>
   <div class="container-fluid">
-    <h1>Projects</h1>
+    <h1 class="m20">Projects</h1>
     <hr>
     <div v-for="article of articles" :key="article.slug">
         <h3 class="mb8">
@@ -8,7 +8,7 @@
             {{ article.title }}
           </NuxtLink>
         </h3>
-        <p>{{ article.preview }}</p>
+        <p>{{ article.summary }}</p>
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
   },
   async asyncData({ $content, params }) {
     const articles = await $content('projects')
-      .only(['title', 'preview', 'slug','createdAt'])
+      .only(['title', 'summary', 'slug','createdAt'])
       .sortBy('createdAt', 'desc')
       .fetch()
 

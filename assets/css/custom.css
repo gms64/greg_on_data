@@ -3,12 +3,6 @@
     padding-bottom: 10px;
 }
 
-
-
-.dark-gray-color {
-  color: #333333;
-}
-
 .page-title {
   font-size: 1.8em;
 }
@@ -63,4 +57,24 @@
 .main-content .container,
 .main-content .container-fluid {
   max-width: 1000px;
+}
+
+
+/* Page Transitions - 0.4s Slide/Fade */
+.page-enter-active,
+.page-leave-active {
+  transition-duration: 0.4s;
+  transition-property: height, opacity, transform;
+  transition-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
+  overflow: hidden;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translate(2em, 0);
+}
+
+.page-leave-active {
+  opacity: 0;
+  transform: translate(-2em, 0);
 }

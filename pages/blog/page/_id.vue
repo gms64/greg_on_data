@@ -9,7 +9,7 @@
           </NuxtLink>
         </h3>
         <p><em>{{ article.createdAt | moment("MMMM Do, YYYY") }}</em></p>
-        <p>{{ article.preview }}</p>
+        <p>{{ article.summary }}</p>
         <p><NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">Read More</NuxtLink></p>
         <br>
     </div>
@@ -43,7 +43,7 @@ export default {
     const pgNum = +params.id
     const prevPg = pgNum - 1
     const articles = await $content('posts')
-      .only(['title', 'preview', 'slug','createdAt'])
+      .only(['title', 'summary', 'slug','createdAt'])
       .sortBy('createdAt', 'desc')
       .skip(postsPerPage*(pgNum-1))
       .limit(postsPerPage)
@@ -51,7 +51,7 @@ export default {
 
     // Get the next group of articles after this page
     const nextArticles = await $content('posts')
-      .only(['title', 'preview', 'slug','createdAt'])
+      .only(['title', 'summary', 'slug','createdAt'])
       .sortBy('createdAt', 'desc')
       .skip(postsPerPage*(pgNum))
       .limit(postsPerPage)
