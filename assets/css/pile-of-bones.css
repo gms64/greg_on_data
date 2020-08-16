@@ -194,6 +194,7 @@
   select {
     height: 38px;
     padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    color: var(--color);
     background-color: var(--bg);
     border: 1px solid var(--border-color);
     border-radius: 4px;
