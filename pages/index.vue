@@ -5,9 +5,12 @@
         <h1 class="site-title">
             greg<span class="txt-color">/</span>data
         </h1>
-        <h5 class="subtitle" id="type-it-text">
-          <!-- Fancy Typed Text -->
-        </h5>
+        <div class="layered">
+          <div class="bg-color opacity-60"></div>
+          <h5 class="subtitle" id="type-it-text">
+            <!-- Fancy Typed Text -->
+          </h5>
+        </div>
         <p>
           infrequently updated musings of a confused developer / data scientist
         </p>

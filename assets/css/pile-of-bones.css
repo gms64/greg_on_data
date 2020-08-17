@@ -567,3 +567,9 @@ footer {
 .txt-color {
   color: var(--color);
 }
+
+.bg-color {
+  background: var(--bg);
+  transition: background-color 0.4s,
+}
+
