@@ -16,6 +16,7 @@
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.4.0",
     "nuxt": "^2.0.0",
+    "particles.js": "^2.0.0",
     "typeit": "^7.0.4",
     "vue-moment": "^4.1.0"
   },

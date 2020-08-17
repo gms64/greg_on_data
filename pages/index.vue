@@ -1,5 +1,5 @@
 <template>
-  <div id="particles-js">
+  <div class="layered" id="particles-js">
     <div class="home-container" >
       <div class="u-full-width">
         <h1 class="site-title">
@@ -17,7 +17,6 @@
           <ColorModePicker />
         </div>
       </div>
-      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
       <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </div>
 </div>
@@ -26,7 +25,11 @@
 <script>
 import TypeIt from 'typeit'
 import ColorModePicker from '@/components/ColorModePicker'
- 
+
+// Only import particles.js on client side
+if (process.browser) {
+  require('particles.js')
+}
 
 export default {
   components: {
@@ -42,7 +45,16 @@ export default {
       ]
     };
   },
+  methods: {
+    initParticles() {
+      window.particlesJS.load('particles-js', '/particles.json', function() {
+      console.log('callback - particles.js config loaded');
+    });
+    }
+  },
   mounted() {
+    this.initParticles()
+
     new TypeIt("#type-it-text")
     .type("welcome to the danger zone", {speed: 60, delay: 200})
     .delete(15, {delay: 200})
@@ -60,9 +72,7 @@ export default {
     console.log("hey you, stop it.")
     console.log("110 111 32 114 101 97 108 108 121 44 32 115 116 111 112 32 105 116 46")
 
-    particlesJS.load('particles-js', '/particles.json', function() {
-      console.log('callback - particles.js config loaded');
-    });
+    
 
   }
 
@@ -72,10 +82,18 @@ export default {
 
 
 <style>
-#particles-js canvas {
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+/* CSS Grid solution to positioning particles.js */
+.layered {
+  display: grid;
+}
+.layered > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+/* #particles-js > canvas {
+  z-index: -1;
+} */
+.home-container >  * {
+  z-index: 1;
 }
 </style>
