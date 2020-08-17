@@ -1,16 +1,14 @@
 <template>
-  <div class="layered" id="particles-js">
+  <div>
+    <div id="particles-js"></div>
     <div class="home-container" >
       <div class="u-full-width">
         <h1 class="site-title">
-            greg<span class="txt-color">/</span>data
+            greg<span class="txt-color"> on </span>data
         </h1>
-        <div class="layered">
-          <div class="bg-color opacity-60"></div>
-          <h5 class="subtitle" id="type-it-text">
-            <!-- Fancy Typed Text -->
-          </h5>
-        </div>
+        <h5 class="subtitle" id="type-it-text">
+          <!-- Fancy Typed Text -->
+        </h5>
         <p>
           infrequently updated musings of a confused developer / data scientist
         </p>
@@ -82,21 +80,3 @@ export default {
   
 }
 </script>
-
-
-<style>
-/* CSS Grid solution to positioning particles.js */
-.layered {
-  display: grid;
-}
-.layered > * {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-/* #particles-js > canvas {
-  z-index: -1;
-} */
-.home-container >  * {
-  z-index: 1;
-}
-</style>
