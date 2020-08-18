@@ -88,6 +88,8 @@
   width: 100%;
   height: 100%;
   z-index: -1;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .bg-color:after {
