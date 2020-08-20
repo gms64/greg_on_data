@@ -29,4 +29,7 @@ I have basically no other online profile that you should care about (since I wou
 
 If you want to reach me via message, feel free to drop me a line on the [contact](/contact) page.
 
-With all that said, happy browsing! 
+With all that said, happy browsing!
+
+p.s. I'm currently working on a website that helps you find great books to read - [next novel project](https://nextnovelproject.com/)
+

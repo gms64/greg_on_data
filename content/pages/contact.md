@@ -1,7 +1,7 @@
 ---
 title: contact
 seo_title: Contact
-preview: Contact Page for my personal website
+summary: Contact Page for my personal website
 seo_desc: Contact Page for my personal website
 ---
 

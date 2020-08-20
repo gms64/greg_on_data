@@ -1,7 +1,7 @@
 ---
 title: nuxt static skeleton
 seo_title: nuxt static skeleton
-preview: Skeleton Nuxt Blog using Nuxt-Content, Netlify CMS, and a few
+summary: Skeleton Nuxt Blog using Nuxt-Content, Netlify CMS, and a few
   additional features
 seo_desc: Skeleton Nuxt Blog using Nuxt-Content, Netlify CMS, and a few
   additional features
