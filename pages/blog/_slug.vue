@@ -10,6 +10,7 @@
             <nuxt-content :document="article" />
             <prev-next :prev="prev" :next="next" />
         </article>
+        <div class="commentbox"></div>
     </div>
 </template>
 
@@ -17,6 +18,7 @@
 <script>
 import VueMoment from 'vue-moment'
 import PrevNext from "~/components/PrevNext.vue"
+import commentBox from 'commentbox.io';
 
   export default {
     components: {
@@ -35,7 +37,6 @@ import PrevNext from "~/components/PrevNext.vue"
     async asyncData({ $content, params, error }) {
         try {
             const article = await $content('posts', params.slug).fetch()
-            console.log(article)
 
             const [prev, next] = await $content('posts')
             .only(['title', 'slug'])
@@ -57,6 +58,9 @@ import PrevNext from "~/components/PrevNext.vue"
         const options = { year: 'numeric', month: 'long', day: 'numeric' }
         return new Date(date).toLocaleDateString('en', options)
         }
+    },
+    mounted() {
+        commentBox('5669956028989440-proj');
     }
   }
 </script>

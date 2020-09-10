@@ -15,7 +15,8 @@
     "@nuxtjs/color-mode": "^1.0.3",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "nuxt": "^2.0.0",
+    "commentbox.io": "^2.0.0",
+    "nuxt": "^2.14.4",
     "particles.js": "^2.0.0",
     "typeit": "^7.0.4",
     "vue-moment": "^4.1.0"
