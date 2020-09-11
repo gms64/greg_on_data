@@ -11,6 +11,16 @@
 
 <script>
 export default {
+  head() {
+    return {
+      title: (this.page.seo_title || this.page.title) + ' | greg on data',
+      meta: [
+          { hid: 'description', 
+          name: 'description',
+          content: (this.page.seo_desc || this.page.preview) }
+      ]
+      }
+  },
   async asyncData({ $content, params, error }) {
     try {
       const page = await $content('pages',params.slug).fetch()
