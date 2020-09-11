@@ -38,11 +38,11 @@ export default {
   },
   head() {
     return {
-      title: 'greg on data',
+      title: 'greg on data - a data science blog',
       meta: [
       { hid: 'description',
       name: 'description',
-      content: 'a personal website created with nuxt, netlify, and a lot of coffee' }
+      content: 'A personal data science blog meant to discuss the field at a high level.' }
       ]
     };
   },
