@@ -23,7 +23,8 @@ If anyone's curious about how this site was built, the project repo is [here](ht
 - [illlustrations](https://illlustrations.co/)
 
 
-I have basically no other online profile that you should care about (since I would prefer not to share my personal Twitter handle at this point), but feel free to find me on:
+I have basically no other online profile that you should care about, but feel free to find me on:
+- [Twitter](https://twitter.com/greg_on_data)
 - [Github](https://github.com/gms64)
 - [Reddit](https://www.reddit.com/user/greg_on_data)
 

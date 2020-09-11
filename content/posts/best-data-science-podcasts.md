@@ -11,44 +11,58 @@ date: 2020-09-09T19:17:57.500Z
 
 *For the people who read the TL;DR first. You people disgust me, you savages.*
 
-| title                                                                                                                                                                                                                                                | author                                                                      | avg_rtg | rtg_ct | episodes | 
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|---------|--------|----------| 
-| <a href="https://podcasts.apple.com/us/podcast/data-skeptic/id890348705" target="_blank">Data Skeptic</a>                                                                                                                                            | Kyle Polich                                                                 | 4.4     | 431    | 300      | 
-| <a href="https://podcasts.apple.com/us/podcast/data-stories/id502854960" target="_blank">Data Stories</a>                                                                                                                                            | Enrico Bertini and Moritz Stefaner                                          | 4.5     | 405    | 162      | 
-| <a href="https://podcasts.apple.com/us/podcast/superdatascience/id1163599059" target="_blank">SuperDataScience</a>                                                                                                                                   | Kirill Eremenko: Data Science Coach, Lifestyle Entrepreneur                 | 4.6     | 161    | 300      | 
-| <a href="https://podcasts.apple.com/us/podcast/raw-data/id1042137974" target="_blank">Raw Data</a>                                                                                                                                                   | Stanford and PRX                                                            | 4.9     | 102    | 59       | 
-| <a href="https://podcasts.apple.com/us/podcast/storytelling-with-data-podcast/id1318029970" target="_blank">storytelling with data podcast</a>                                                                                                       | storytelling with data author, speaker and dataviz guru Cole Nussbaumer Kna | 4.9     | 80     | 33       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-crunch/id1165189603" target="_blank">Data Crunch</a>                                                                                                                                             | Data Crunch Corporation                                                     | 4.9     | 70     | 64       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-viz-today/id1352837603" target="_blank">Data Viz Today</a>                                                                                                                                       | Alli Torban                                                                 | 5       | 64     | 62       | 
-| <a href="https://podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220" target="_blank">O'Reilly Data Show Podcast</a>                                                                                                                 | O'Reilly Media                                                              | 4.2     | 59     | 60       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557" target="_blank">Data Engineering Podcast</a>                                                                                                                   | Tobias Macey                                                                | 4.7     | 58     | 150      | 
-| <a href="https://podcasts.apple.com/us/podcast/data-science-at-home/id1069871378" target="_blank">Data Science at Home</a>                                                                                                                           | Francesco Gadaleta                                                          | 4.2     | 58     | 100      | 
-| <a href="https://podcasts.apple.com/us/podcast/big-data/id1148791298" target="_blank">Big Data</a>                                                                                                                                                   | Ryan Estrada                                                                | 4.6     | 58     | 13       | 
-| <a href="https://podcasts.apple.com/us/podcast/follow-the-data-podcast/id1104371750" target="_blank">Follow the Data Podcast</a>                                                                                                                     | Bloomberg Philanthropies                                                    | 4.3     | 57     | 82       | 
-| <a href="https://podcasts.apple.com/us/podcast/making-data-simple/id605818735" target="_blank">Making Data Simple</a>                                                                                                                                | IBM                                                                         | 4.3     | 56     | 104      | 
-| <a href="https://podcasts.apple.com/us/podcast/becoming-a-data-scientist-podcast/id1076448558" target="_blank">Becoming A Data Scientist Podcast</a>                                                                                                 | Renee Teate                                                                 | 4.5     | 49     | 21       | 
-| <a href="https://podcasts.apple.com/us/podcast/present-beyond-measure-show-data-visualization-storytelling/id1029765276" target="_blank">The Present Beyond Measure Show: Data Visualization, Storytelling & Presentation for Digital Marketers</a>  | Lea Pica \| Data Storytelling Evangelist, Speaker + Trainer                 | 4.9     | 44     | 58       | 
-| <a href="https://podcasts.apple.com/us/podcast/the-data-chief/id1509495585" target="_blank">The Data Chief</a>                                                                                                                                       | Mission                                                                     | 4.9     | 43     | 16       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-driven/id1241441038" target="_blank">Data Driven</a>                                                                                                                                             | Data Driven                                                                 | 4.9     | 41     | 257      | 
-| <a href="https://podcasts.apple.com/us/podcast/data-gurus/id1351574994" target="_blank">Data Gurus</a>                                                                                                                                               | Sima Vasa                                                                   | 5       | 39     | 106      | 
-| <a href="https://podcasts.apple.com/us/podcast/masters-of-data-podcast/id1363415303" target="_blank">Masters of Data Podcast</a>                                                                                                                     | Sumo Logic hosted by Ben Newton                                             | 5       | 38     | 74       | 
-| <a href="https://podcasts.apple.com/us/podcast/the-policyviz-podcast/id982966091" target="_blank">The PolicyViz Podcast</a>                                                                                                                          | The PolicyViz Podcast                                                       | 4.7     | 36     | 180      | 
-| <a href="https://podcasts.apple.com/us/podcast/women-in-data-science/id1440076586" target="_blank">Women in Data Science</a>                                                                                                                         | Professor Margot Gerritsen                                                  | 4.9     | 27     | 24       | 
-| <a href="https://podcasts.apple.com/us/podcast/towards-data-science/id1470952338" target="_blank">Towards Data Science</a>                                                                                                                           | The TDS team                                                                | 4.6     | 26     | 50       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-in-depth/id1468304417" target="_blank">Data in Depth</a>                                                                                                                                         | Mountain Point                                                              | 5       | 22     | 24       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-science-imposters-podcast/id1249728040" target="_blank">Data Science Imposters Podcast</a>                                                                                                       | Antonio Borges and Jordy Estevez: Data Science Imposters                    | 4.4     | 22     | 88       | 
-| <a href="https://podcasts.apple.com/us/podcast/the-banana-data-podcast/id1463103655" target="_blank">The Banana Data Podcast</a>                                                                                                                     | Dataiku                                                                     | 4.9     | 15     | 33       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-journeys/id1358963399" target="_blank">Data Journeys</a>                                                                                                                                         | AJ Goldstein                                                                | 5       | 13     | 26       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-futurology-leadership-strategy-in-artificial-intelligence/id1385051346" target="_blank">Data Futurology - Leadership And Strategy in Artificial Intelligence, Machine Learning, Data Science</a> | Felipe Flores                                                               | 4.4     | 11     | 135      | 
-| <a href="https://podcasts.apple.com/us/podcast/all-things-data-podcast/id1279340915" target="_blank">All Things Data Podcast</a>                                                                                                                     | Daniel Yarmoluk                                                             | 5       | 7      | 31       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-dives-podcast/id1463349163" target="_blank">Data Dives Podcast</a>                                                                                                                               | Alaris                                                                      | 5       | 7      | 12       | 
-| <a href="https://podcasts.apple.com/us/podcast/the-all-analytics-podcast/id1167729205" target="_blank">The All Analytics Podcast</a>                                                                                                                 | All Analytics                                                               | 4       | 4      | 31       | 
-| <a href="https://podcasts.apple.com/us/podcast/the-data-life-podcast/id1453716761" target="_blank">The Data Life Podcast</a>                                                                                                                         | Sanket Gupta                                                                | 5       | 3      | 23       | 
-| <a href="https://podcasts.apple.com/us/podcast/data-science-in-production/id1455613667" target="_blank">Data Science In Production</a>                                                                                                               | Data Science In Production                                                  | 5       | 3      | 6        | 
-| <a href="https://podcasts.apple.com/us/podcast/data-science-now/id1495291959" target="_blank">Data Science Now</a>                                                                                                                                   | Closter                                                                     | 5       | 2      | 15       | 
-| <a href="https://podcasts.apple.com/us/podcast/startup-data-science/id1249895365" target="_blank">Startup Data Science</a>                                                                                                                           | Edderic Ugaddan, Apurva Naik, Alex Au                                       | 2.5     | 2      | 10       | 
-
-
+| title                                                                                                                                                                                                                                                | author                                        | avg_rtg | rtg_ct | episodes | 
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|---------|--------|----------| 
+| <a href="https://podcasts.apple.com/us/podcast/lex-fridman-podcast/id1434243584" target="_blank">Lex Fridman Podcast</a>                                                                                                                             | Lex Fridman                                   | 4.9     | 2400   | 126      | 
+| <a href="https://podcasts.apple.com/us/podcast/machine-learning-guide/id1204521130" target="_blank">Machine Learning Guide</a>                                                                                                                       | OCDevel                                       | 4.9     | 626    | 30       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-skeptic/id890348705" target="_blank">Data Skeptic</a>                                                                                                                                            | Kyle Polich                                   | 4.4     | 431    | 300      | 
+| <a href="https://podcasts.apple.com/us/podcast/data-stories/id502854960" target="_blank">Data Stories</a>                                                                                                                                            | Enrico Bertini and Moritz Stefaner            | 4.5     | 405    | 162      | 
+| <a href="https://podcasts.apple.com/us/podcast/twiml-ai-podcast-formerly-this-week-in-machine-learning/id1116303051" target="_blank">The TWIML AI Podcast (formerly This Week in Machine Learning & Artificial Intelligence)</a>                     | Sam Charrington                               | 4.7     | 300    | 300      | 
+| <a href="https://podcasts.apple.com/us/podcast/dataframed/id1336150688" target="_blank">DataFramed</a>                                                                                                                                               | DataCamp                                      | 4.9     | 188    | 59       | 
+| <a href="https://podcasts.apple.com/us/podcast/the-ai-podcast/id1186480811" target="_blank">The AI Podcast</a>                                                                                                                                       | NVIDIA                                        | 4.5     | 162    | 125      | 
+| <a href="https://podcasts.apple.com/us/podcast/superdatascience/id1163599059" target="_blank">SuperDataScience</a>                                                                                                                                   | Kirill Eremenko                               | 4.6     | 161    | 300      | 
+| <a href="https://podcasts.apple.com/us/podcast/partially-derivative/id942048597" target="_blank">Partially Derivative</a>                                                                                                                            | Partially Derivative                          | 4.8     | 141    | 101      | 
+| <a href="https://podcasts.apple.com/us/podcast/machine-learning/id384233048" target="_blank">Machine Learning</a>                                                                                                                                    | Stanford                                      | 3.9     | 138    | 20       | 
+| <a href="https://podcasts.apple.com/us/podcast/talking-machines/id955198749" target="_blank">Talking Machines</a>                                                                                                                                    | Tote Bag Productions                          | 4.6     | 133    | 106      | 
+| <a href="https://podcasts.apple.com/us/podcast/ai-in-business/id670771965" target="_blank">AI in Business</a>                                                                                                                                        | Daniel Faggella                               | 4.4     | 102    | 100      | 
+| <a href="https://podcasts.apple.com/us/podcast/learning-machines-101/id892779679" target="_blank">Learning Machines 101</a>                                                                                                                          | Richard M. Golden, Ph.D., M.S.E.E., B.S.E.E.  | 4.4     | 87     | 82       | 
+| <a href="https://podcasts.apple.com/us/podcast/storytelling-with-data-podcast/id1318029970" target="_blank">storytelling with data podcast</a>                                                                                                       | Cole Nussbaumer Kna                           | 4.9     | 80     | 33       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-crunch/id1165189603" target="_blank">Data Crunch</a>                                                                                                                                             | Data Crunch Corporation                       | 4.9     | 70     | 64       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-viz-today/id1352837603" target="_blank">Data Viz Today</a>                                                                                                                                       | Alli Torban                                   | 5.0     | 64     | 62       | 
+| <a href="https://podcasts.apple.com/us/podcast/artificial-intelligence/id765641080" target="_blank">Artificial Intelligence</a>                                                                                                                      | MIT                                           | 4.1     | 61     | 31       | 
+| <a href="https://podcasts.apple.com/us/podcast/oreilly-data-show-podcast/id944929220" target="_blank">O'Reilly Data Show Podcast</a>                                                                                                                 | O'Reilly Media                                | 4.2     | 59     | 60       | 
+| <a href="https://podcasts.apple.com/us/podcast/machine-learning-software-engineering-daily/id1230807136" target="_blank">Machine Learning – Software Engineering Daily</a>                                                                           | Machine Learning – Software Engineering Daily | 4.5     | 59     | 115      | 
+| <a href="https://podcasts.apple.com/us/podcast/data-science-at-home/id1069871378" target="_blank">Data Science at Home</a>                                                                                                                           | Francesco Gadaleta                            | 4.2     | 58     | 100      | 
+| <a href="https://podcasts.apple.com/us/podcast/data-engineering-podcast/id1193040557" target="_blank">Data Engineering Podcast</a>                                                                                                                   | Tobias Macey                                  | 4.7     | 58     | 150      | 
+| <a href="https://podcasts.apple.com/us/podcast/big-data/id1148791298" target="_blank">Big Data</a>                                                                                                                                                   | Ryan Estrada                                  | 4.6     | 58     | 13       | 
+| <a href="https://podcasts.apple.com/us/podcast/follow-the-data-podcast/id1104371750" target="_blank">Follow the Data Podcast</a>                                                                                                                     | Bloomberg Philanthropies                      | 4.3     | 57     | 82       | 
+| <a href="https://podcasts.apple.com/us/podcast/making-data-simple/id605818735" target="_blank">Making Data Simple</a>                                                                                                                                | IBM                                           | 4.3     | 56     | 104      | 
+| <a href="https://podcasts.apple.com/us/podcast/analytics-on-fire/id1088683533" target="_blank">Analytics on Fire</a>                                                                                                                                 | Mico Yuk                                      | 4.4     | 51     | 48       | 
+| <a href="https://podcasts.apple.com/us/podcast/learn-to-code-in-one-month/id1460397186" target="_blank">Learn to Code in One Month</a>                                                                                                               | Learn to Code                                 | 4.9     | 50     | 26       | 
+| <a href="https://podcasts.apple.com/us/podcast/becoming-a-data-scientist-podcast/id1076448558" target="_blank">Becoming A Data Scientist Podcast</a>                                                                                                 | Renee Teate                                   | 4.5     | 49     | 21       | 
+| <a href="https://podcasts.apple.com/us/podcast/practical-ai-machine-learning-data-science/id1406537385" target="_blank">Practical AI: Machine Learning & Data Science</a>                                                                            | Changelog Media                               | 4.5     | 48     | 105      | 
+| <a href="https://podcasts.apple.com/us/podcast/present-beyond-measure-show-data-visualization-storytelling/id1029765276" target="_blank">The Present Beyond Measure Show: Data Visualization, Storytelling & Presentation for Digital Marketers</a>  | Lea Pica                                      | 4.9     | 44     | 58       | 
+| <a href="https://podcasts.apple.com/us/podcast/the-data-chief/id1509495585" target="_blank">The Data Chief</a>                                                                                                                                       | Mission                                       | 4.9     | 43     | 16       | 
+| <a href="https://podcasts.apple.com/us/podcast/ai-today-podcast-artificial-intelligence-insights-experts/id1279927057" target="_blank">AI Today Podcast: Artificial Intelligence Insights, Experts, and Opinion</a>                                  | Cognilytica                                   | 4.2     | 42     | 161      | 
+| <a href="https://podcasts.apple.com/us/podcast/data-driven/id1241441038" target="_blank">Data Driven</a>                                                                                                                                             | Data Driven                                   | 4.9     | 41     | 257      | 
+| <a href="https://podcasts.apple.com/us/podcast/humain-podcast-artificial-intelligence-data-science/id1452117009" target="_blank">HumAIn Podcast - Artificial Intelligence, Data Science, and Developer Education</a>                                 | David Yakobovitch                             | 4.8     | 39     | 78       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-gurus/id1351574994" target="_blank">Data Gurus</a>                                                                                                                                               | Sima Vasa                                     | 5.0     | 39     | 106      | 
+| <a href="https://podcasts.apple.com/us/podcast/masters-of-data-podcast/id1363415303" target="_blank">Masters of Data Podcast</a>                                                                                                                     | Sumo Logic hosted by Ben Newton               | 5.0     | 38     | 74       | 
+| <a href="https://podcasts.apple.com/us/podcast/the-policyviz-podcast/id982966091" target="_blank">The PolicyViz Podcast</a>                                                                                                                          | The PolicyViz Podcast                         | 4.7     | 36     | 180      | 
+| <a href="https://podcasts.apple.com/us/podcast/the-radical-ai-podcast/id1505229145" target="_blank">The Radical AI Podcast</a>                                                                                                                       | Radical AI                                    | 4.9     | 34     | 35       | 
+| <a href="https://podcasts.apple.com/us/podcast/women-in-data-science/id1440076586" target="_blank">Women in Data Science</a>                                                                                                                         | Professor Margot Gerritsen                    | 4.9     | 28     | 24       | 
+| <a href="https://podcasts.apple.com/us/podcast/towards-data-science/id1470952338" target="_blank">Towards Data Science</a>                                                                                                                           | The TDS team                                  | 4.6     | 26     | 50       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-in-depth/id1468304417" target="_blank">Data in Depth</a>                                                                                                                                         | Mountain Point                                | 5.0     | 22     | 24       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-science-imposters-podcast/id1249728040" target="_blank">Data Science Imposters Podcast</a>                                                                                                       | Antonio Borges and Jordy Estevez              | 4.4     | 22     | 88       | 
+| <a href="https://podcasts.apple.com/us/podcast/the-artists-of-data-science/id1506968775" target="_blank">The Artists of Data Science</a>                                                                                                             | Harpreet Sahota                               | 4.9     | 19     | 41       | 
+| <a href="https://podcasts.apple.com/us/podcast/datafemme/id1484529990" target="_blank">#DataFemme</a>                                                                                                                                                | Dikayo Data                                   | 5.0     | 17     | 30       | 
+| <a href="https://podcasts.apple.com/us/podcast/the-banana-data-podcast/id1463103655" target="_blank">The Banana Data Podcast</a>                                                                                                                     | Dataiku                                       | 4.9     | 15     | 33       | 
+| <a href="https://podcasts.apple.com/us/podcast/experiencing-data-with-brian-t-oneill/id1444887095" target="_blank">Experiencing Data with Brian T. O'Neill</a>                                                                                       | Brian T. O'Neill from Designing for Analytics | 4.9     | 14     | 13       | 
+| <a href="https://podcasts.apple.com/us/podcast/secrets-of-data-analytics-leaders/id1334792097" target="_blank">Secrets of Data Analytics Leaders</a>                                                                                                 | Eckerson Group                                | 4.8     | 13     | 82       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-journeys/id1358963399" target="_blank">Data Journeys</a>                                                                                                                                         | AJ Goldstein                                  | 5.0     | 13     | 26       | 
+| <a href="https://podcasts.apple.com/us/podcast/data-driven-discussions/id1258339160" target="_blank">Data Driven Discussions</a>                                                                                                                     | Outlier.ai                                    | 5.0     | 12     | 8        | 
+| <a href="https://podcasts.apple.com/us/podcast/data-futurology-leadership-strategy-in-artificial-intelligence/id1385051346" target="_blank">Data Futurology - Leadership And Strategy in Artificial Intelligence, Machine Learning, Data Science</a> | Felipe Flores                                 | 4.4     | 11     | 135      | 
+| <a href="https://podcasts.apple.com/us/podcast/artificially-intelligent/id1223852506" target="_blank">Artificially Intelligent</a>                                                                                                                   | Christian Hubbs and Stephen Donnelly          | 4.9     | 11     | 100      | 
 
 
 
@@ -74,7 +88,7 @@ I'm using python here with an installation of Anaconda (which is a common packag
 
 In terms of what I'm going to do, I'll run a few google keyword searches which are limited to the 'https://podcasts.apple.com/us/podcast/' domain and scrape the results for the first few pages.  From there I'll just be scraping the apple podcast page to get the total number of ratings and the average rating. Yea, the data will be biased, but its a quick and dirty way to get the answer I'm looking for.
 
-## code to find top data science podcastss
+## code to find top data science podcasts - version 1
 
     # import default python packages
     import urllib
@@ -244,6 +258,78 @@ Now to put everything into a dataframe and do a little bit of sorting and filter
     # sort by total ratings and then send them to a csv
     merge_df.sort_values('rtg_ct',ascending=False).to_csv('podcasts.csv')
 
-From here I did a bit of cheating where I combined the title and link to create a `<a hrer="link">title</a>`, but that's mainly because I got a bit lazy...
+From here I exported the file to csv and did a bit of cheating where I combined the title and link to create a `<a hrer="link">title</a>`, but that's mainly because I got a bit lazy...
 
 Anyways, that was the full process in creating the above list of data science podcasts. You now have the top podcasts, sorted by total reviews.  I considered also using castbox as a source of scraping (since they have an approximation of subscribers / downloads), but I couldn't find any good way to search for generally popular podcasts.  Or podcasts that contained a certain word.
+
+*The first version of this article stopped here and showed results from this code*
+
+## code to find top data science podcasts - version 2
+
+Well, that was fine, but I think its actually lacking a bit.  There seem to be a few podcasts that I've stumbled across that are missing which I was hoping this would capture.  So we're going to switch some stuff up.  First, I'm going to use a mobile user agent to tell Google I'm searching from my phone.
+
+Why? Well Google shows different results for desktop searches vs mobile searches, so if we're looking to find the best podcasts, we want to be where most of the searches are actually happening.  And since you basically always listen to podcasts on your phone, it probably makes sense to search *from your phone*...  The code for that is below, the main changes are in 
+
+    # Mobile Search Version
+    headers = {"user-agent" : MOBILE_USER_AGENT}
+                
+    results = []
+    for x in list_kwargs:
+        url, search_term = string_to_podcast_query(**x)
+        resp = requests.get(url, headers=headers)
+        if resp.status_code == 200:
+            soup = BeautifulSoup(resp.content, "html.parser")
+        
+        for g in soup.find_all('div', class_='mnr-c'): # updated target class
+            anchors = g.find_all('a')
+            if anchors:
+                link = anchors[0]['href']
+                title = anchors[0].find_all('div')[1].get_text().strip() # updated title crawler
+                item = {
+                    "title": title,
+                    "link": link,
+                    "search_term": search_term
+                }
+                results.append(item)
+
+        time.sleep(2.5)
+
+
+What else did I switch up? I switched the Google queries up a bit and added a few more.  I figure if I'm actually trying to find the best podcasts, it makes sense to search for them.  That way, you get the ones that typically show up on these types of blog lists.
+
+    # Queries
+    list_kwargs = [
+        {"string": 'best data podcast'},
+        {"string": 'best data podcast', "pg": 2},
+        {"string": 'best data podcast', "pg": 3},
+        {"string": 'best data podcast', "pg": 4},
+        {"string": 'best data science podcast'},
+        {"string": 'best data science podcast', "pg": 2},
+        {"string": 'best data science podcast', "pg": 3},
+        {"string": 'best artificial intelligence podcast'},
+        {"string": 'best machine learning podcast'},
+        {"string": 'best data engineering podcast'},
+        {"string": 'best data visualization podcast'},
+    ]
+
+And that's it - all of the changes I made for the second version.  The results are updated up top, but it gets a more complete 
+
+### code to find top data science podcasts - version 3
+
+And I'm an idiot. 'Fixing' my queries to only find the 'best data science podcasts' ended up making me miss a few of the good ones I found earlier.  So I'm going to do as any good data scientist does and just combine the results of both sets of queries...
+
+    # Queries
+    list_kwargs = [
+        {"string": 'best data podcast'},
+        {"string": 'best data podcast', "pg": 2},
+        {"string": 'best data podcast', "pg": 3},
+        {"string": 'best data podcast', "pg": 4},
+        {"string": 'best data science podcast'},
+        {"string": 'best data science podcast', "pg": 2},
+        {"string": 'best data science podcast', "pg": 3},
+        {"string": 'best artificial intelligence podcast'},
+        {"string": 'best machine learning podcast'},
+        {"string": 'best data engineering podcast'},
+        {"string": 'best data visualization podcast'},
+    ]
+
