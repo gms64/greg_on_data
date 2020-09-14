@@ -24,8 +24,8 @@
             </div>
             <div class="col-xs-4 center-xs middle-xs">
               <div class="box">
-                <span class="footer-link"><nuxt-link to="/about">about</nuxt-link></span>&nbsp;&nbsp;
-                <span class="footer-link"><nuxt-link to="/contact">contact</nuxt-link></span>
+                <span class="footer-link"><nuxt-link to="/about/">about</nuxt-link></span>&nbsp;&nbsp;
+                <span class="footer-link"><nuxt-link to="/contact/">contact</nuxt-link></span>
               </div>
             </div>
         </div>

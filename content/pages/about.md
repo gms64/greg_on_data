@@ -28,7 +28,7 @@ I have basically no other online profile that you should care about, but feel fr
 - [Github](https://github.com/gms64)
 - [Reddit](https://www.reddit.com/user/greg_on_data)
 
-If you want to reach me via message, feel free to drop me a line on the [contact](/contact) page.
+If you want to reach me via message, feel free to drop me a line on the [contact](/contact/) page.
 
 With all that said, happy browsing!
 

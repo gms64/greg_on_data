@@ -11,7 +11,8 @@ date: 2020-08-16T03:17:57.500Z
 Hi all and welcome to the blog aspect of my personal site.
 
 I'm focusing more time right now on building the code aspect of this site than anything else, so please forgive me for the current lack of content.  To the extent that anything I put together is useful, always feel free to:
-- Let me know (via the [contact](/contact) page)
+- Follow me on [Twitter](https://twitter.com/greg_on_data)
+- Let me know (via the [contact](/contact/) page)
 - Share it with friends
 - Share it with the interwebs
 - Follow my code on [Github](https://github.com/gms64)

@@ -63,11 +63,11 @@ export default {
     .break({delay: 300})
     .type("can i interest you in...", {speed: 60})
     .break({delay: 100})
-    .type("<a href='/blog'>some posts</a>", {speed: 60})
+    .type("<a href='/blog/'>some posts</a>", {speed: 60})
     .break({delay: 200})
     .type("or maybe", {speed: 60})
     .break({delay: 200})
-    .type("<a href='/projects'>some projects of mine</a>", {speed: 60})
+    .type("<a href='/projects/'>some projects of mine</a>", {speed: 60})
     .go();
 
     console.log("hey you, stop it.")

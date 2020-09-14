@@ -61,6 +61,9 @@ export default {
   /*
   ** Build configuration
   */
+  router: {
+    trailingSlash: true
+  },
   build: {
     /*
     ** You can extend webpack config here
