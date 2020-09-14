@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <nuxt-link to='/blog'>Back to Blog</nuxt-link>
+        <nuxt-link to='/blog/'>Back to Blog</nuxt-link>
         <article>
             <h1 class="m20">{{ article.title }}</h1>
             <p><em>{{ article.createdAt  | moment("MMMM Do, YYYY") }}</em></p>
