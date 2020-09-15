@@ -1,6 +1,6 @@
 ---
 title: finding the best data science twitter accounts
-seo_title: The Best Data Science Twitter Accounts
+seo_title: Finding The Best Data Science Twitter Accounts
 summary: Continuing my series of web scraping to find interesting people to follow... In this post, I'm trying to find the best data science twitter accounts to subscribe to. Now that I use Twitter, might as well put it to use...
 seo_desc: The best data science twitter accounts to follow in 2020. For accounts in data science, data engineering, data analytics, data visualization, machine learning, and AI. 
 createdAt: 2020-09-14 18:00:00
@@ -44,9 +44,6 @@ date: 2020-09-14T19:17:57.500Z
 | Mona Chalabi | [MonaChalabi](https://twitter.com/MonaChalabi) | 3 | 88,429 | 6,863 | 1,906 | 
 | Ilya Sutskever | [ilyasut](https://twitter.com/ilyasut) | 3 | 57,941 | 540 | 1,849 | 
 | Data Science Central | [analyticbridge](https://twitter.com/analyticbridge) | 3 | 222,341 | 139,734 | 4,232 | 
-
-
-**shoutout to the one semi-major twitter account that has linked my tweets so far 
 
 
 ## twitter time!

@@ -1,6 +1,6 @@
 ---
 title: finding the best data science podcasts
-seo_title: The Best Data Science Podcasts
+seo_title: Finding The Best Data Science Podcasts
 summary: Trying to find the best data science podcasts to subscribe to. With Data Science! (Or Data Engineering / Analytics, really). 
 seo_desc: The best data science podcasts out there for 2020. Tackling data science, data engineering, data analytics, and data visualization
 createdAt: 2020-09-09 18:00:00
