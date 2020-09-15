@@ -42,7 +42,23 @@ export default {
       meta: [
       { hid: 'description',
       name: 'description',
-      content: 'A personal data science blog meant to discuss the field at a high level.' }
+      content: 'A personal data science blog meant to discuss the field at a high level.' },
+      {
+          'property':  'og:title',
+          'content':  `greg on data - a data science blog`,
+      },
+      {
+          'property':  'og:type',
+          'content':  `website`,
+      },
+      {
+          'property':  'og:description',
+          'content': `A personal data science blog meant to discuss the field at a high level.`.replace(/<\/?[^>]+(>|$)/g, ""),
+      },
+      {
+          'property':  'og:image',
+          'content': `/favicon/apple-touch-icon.png`
+      }
       ]
     };
   },

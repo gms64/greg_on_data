@@ -30,7 +30,23 @@ import commentBox from 'commentbox.io';
         meta: [
             { hid: 'description', 
             name: 'description',
-            content: (this.article.seo_desc || this.article.preview) }
+            content: (this.article.seo_desc || this.article.preview) },
+            {
+                'property':  'og:title',
+                'content':  `${this.article.title}`,
+            },
+            {
+            'property':  'og:type',
+            'content':  `article`,
+            },
+            {
+                'property':  'og:description',
+                'content': `${(this.article.seo_desc || this.article.preview)}`.replace(/<\/?[^>]+(>|$)/g, ""),
+            },
+            {
+                'property':  'og:image',
+                'content': `/favicon/apple-touch-icon.png`
+            }
         ]
         }
     },
