@@ -13,37 +13,42 @@ date: 2020-09-14T19:17:57.500Z
 
 | name | handle | mention_count | followers | tweets | following | 
 |----------------------|--------------------------------------------------------|---------------|-----------|---------|-----------| 
-| Hilary Mason | [hmason](https://twitter.com/hmason) | 15 | 125,085 | 19,198 | 1,811 | 
-| KDnuggets | [kdnuggets](https://twitter.com/kdnuggets) | 14 | 179,064 | 65,786 | 433 | 
-| Andrew Ng | [AndrewYNg](https://twitter.com/AndrewYNg) | 13 | 529,773 | 1,293 | 472 | 
-| Kirk Borne | [KirkDBorne](https://twitter.com/KirkDBorne) | 11 | 268,069 | 124,504 | 10,437 | 
-| peteskomoroch | [peteskomoroch](https://twitter.com/peteskomoroch) | 9 | 48,844 | 46,853 | 3,626 | 
-| Kirk Borne | [kirkdborne](https://twitter.com/kirkdborne) | 7 | 268,069 | 124,504 | 10,437 | 
-| dj patil | [dpatil](https://twitter.com/dpatil) | 7 | 76,308 | 19,876 | 1,976 | 
-| Bernard Marr | [BernardMarr](https://twitter.com/BernardMarr) | 6 | 130,012 | 33,629 | 25,481 | 
-| Ryan R. Rosario | [DataJunkie](https://twitter.com/DataJunkie) | 6 | 20,610 | 15,697 | 932 | 
-| Ben Lorica 罗瑞卡 | [bigdata](https://twitter.com/bigdata) | 5 | 44,606 | 9,521 | 340 | 
-| Olivier Grisel | [ogrisel](https://twitter.com/ogrisel) | 5 | 28,728 | 14,208 | 2,805 | 
-| Fei-Fei Li | [drfeifei](https://twitter.com/drfeifei) | 5 | 364,460 | 1,333 | 354 | 
+| Kirk Borne | [kirkdborne](https://twitter.com/kirkdborne) | 18 | 268,081 | 124,514 | 10,437 | 
+| Hilary Mason | [hmason](https://twitter.com/hmason) | 16 | 125,086 | 19,199 | 1,811 | 
+| Andrew Ng | [andrewyng](https://twitter.com/andrewyng) | 15 | 529,754 | 1,293 | 472 | 
+| KDnuggets | [kdnuggets](https://twitter.com/kdnuggets) | 14 | 179,062 | 65,786 | 433 | 
+| peteskomoroch | [peteskomoroch](https://twitter.com/peteskomoroch) | 9 | 48,846 | 46,865 | 3,625 | 
+| dj patil | [dpatil](https://twitter.com/dpatil) | 7 | 76,302 | 19,877 | 1,976 | 
+| Ryan R. Rosario | [datajunkie](https://twitter.com/datajunkie) | 6 | 20,614 | 15,697 | 932 | 
+| Bernard Marr | [bernardmarr](https://twitter.com/bernardmarr) | 6 | 130,006 | 33,629 | 25,480 | 
+| Fei-Fei Li | [drfeifei](https://twitter.com/drfeifei) | 5 | 364,452 | 1,333 | 354 | 
+| Olivier Grisel | [ogrisel](https://twitter.com/ogrisel) | 5 | 28,726 | 14,208 | 2,805 | 
+| Ben Lorica 罗瑞卡 | [bigdata](https://twitter.com/bigdata) | 5 | 44,603 | 9,521 | 340 | 
+| Ronald van Loon | [ronald_vanloon](https://twitter.com/ronald_vanloon) | 5 | 232,107 | 89,286 | 183,633 | 
 | David Smith | [revodavid](https://twitter.com/revodavid) | 5 | 31,553 | 15,053 | 2,280 | 
-| Carla Gentry | [data_nerd](https://twitter.com/data_nerd) | 5 | 55,927 | 330,617 | 13,153 | 
-| Hadley Wickham | [hadleywickham](https://twitter.com/hadleywickham) | 5 | 111,756 | 39,726 | 272 | 
-| Ronald van Loon | [Ronald_vanLoon](https://twitter.com/Ronald_vanLoon) | 5 | 232,096 | 89,278 | 183,637 | 
-| Jeff Hammerbacher | [hackingdata](https://twitter.com/hackingdata) | 5 | 35,479 | 3 | 15,781 | 
-| Monica Rogati | [mrogati](https://twitter.com/mrogati) | 5 | 51,675 | 2,439 | 595 | 
-| Drew Conway | [drewconway](https://twitter.com/drewconway) | 4 | 24,679 | 27,601 | 297 | 
-| Jake Porway | [jakeporway](https://twitter.com/jakeporway) | 4 | 14,324 | 6,893 | 680 | 
-| John Myles White | [johnmyleswhite](https://twitter.com/johnmyleswhite) | 4 | 29,429 | 22,868 | 17 | 
-| Cole Knaflic | [storywithdata](https://twitter.com/storywithdata) | 3 | 22,479 | 5,802 | 776 | 
-| Andy Kirk | [visualisingdata](https://twitter.com/visualisingdata) | 3 | 49,626 | 38,765 | 505 | 
-| r/DataIsBeautiful | [DataIsBeautiful](https://twitter.com/DataIsBeautiful) | 3 | 48,970 | 13,002 | 1,369 | 
-| Josh Wills | [josh_wills](https://twitter.com/josh_wills) | 3 | 14,168 | 13,568 | 1,332 | 
-| Randy Olson | [randal_olson](https://twitter.com/randal_olson) | 3 | 123,394 | 20,079 | 77,557 | 
-| Sebastian Raschka | [rasbt](https://twitter.com/rasbt) | 3 | 47,490 | 1,021 | 398 | 
-| Evan Sinar, PhD | [EvanSinar](https://twitter.com/EvanSinar) | 3 | 51,531 | 9,761 | 23,455 | 
-| Mona Chalabi | [MonaChalabi](https://twitter.com/MonaChalabi) | 3 | 88,429 | 6,863 | 1,906 | 
-| Ilya Sutskever | [ilyasut](https://twitter.com/ilyasut) | 3 | 57,941 | 540 | 1,849 | 
-| Data Science Central | [analyticbridge](https://twitter.com/analyticbridge) | 3 | 222,341 | 139,734 | 4,232 | 
+| Carla Gentry | [data_nerd](https://twitter.com/data_nerd) | 5 | 55,925 | 330,619 | 13,153 | 
+| Hadley Wickham | [hadleywickham](https://twitter.com/hadleywickham) | 5 | 111,757 | 39,726 | 272 | 
+| Monica Rogati | [mrogati](https://twitter.com/mrogati) | 5 | 51,674 | 2,439 | 595 | 
+| Jeff Hammerbacher | [hackingdata](https://twitter.com/hackingdata) | 5 | 35,476 | 3 | 15,781 | 
+| Cole Knaflic | [storywithdata](https://twitter.com/storywithdata) | 4 | 22,480 | 5,802 | 776 | 
+| Jake Porway | [jakeporway](https://twitter.com/jakeporway) | 4 | 14,325 | 6,893 | 680 | 
+| John Myles White | [johnmyleswhite](https://twitter.com/johnmyleswhite) | 4 | 29,428 | 22,868 | 17 | 
+| Randy Olson | [randal_olson](https://twitter.com/randal_olson) | 4 | 123,392 | 20,079 | 77,558 | 
+| Drew Conway | [drewconway](https://twitter.com/drewconway) | 4 | 24,677 | 27,601 | 297 | 
+| Ian Goodfellow | [goodfellow_ian](https://twitter.com/goodfellow_ian) | 3 | 199,394 | 2,709 | 1,079 | 
+| Lisa Charlotte Rost | [lisacrost](https://twitter.com/lisacrost) | 3 | 19,394 | 4,430 | 748 | 
+| Mara Averick | [dataandme](https://twitter.com/dataandme) | 3 | 45,260 | 43,356 | 2,892 | 
+| Evan Sinar, PhD | [evansinar](https://twitter.com/evansinar) | 3 | 51,527 | 9,761 | 23,455 | 
+| Nathan Yau | [flowingdata](https://twitter.com/flowingdata) | 3 | 82,732 | 190 | 352 | 
+| Mona Chalabi | [monachalabi](https://twitter.com/monachalabi) | 3 | 88,474 | 6,864 | 1,906 | 
+| r/DataIsBeautiful | [dataisbeautiful](https://twitter.com/dataisbeautiful) | 3 | 48,967 | 13,002 | 1,369 | 
+| Josh Wills | [josh_wills](https://twitter.com/josh_wills) | 3 | 14,167 | 13,568 | 1,332 | 
+| Sebastian Raschka | [rasbt](https://twitter.com/rasbt) | 3 | 47,492 | 1,021 | 398 | 
+| Cindi Howson | [biscorecard](https://twitter.com/biscorecard) | 3 | 25,578 | 12,195 | 4,061 | 
+| Ilya Sutskever | [ilyasut](https://twitter.com/ilyasut) | 3 | 57,947 | 540 | 1,849 | 
+| Data Science Central | [analyticbridge](https://twitter.com/analyticbridge) | 3 | 222,337 | 139,735 | 4,232 | 
+| Andy Kirk | [visualisingdata](https://twitter.com/visualisingdata) | 3 | 49,624 | 38,765 | 505 | 
+
 
 
 ## twitter time!
@@ -250,7 +255,7 @@ Now that we have the results, we can define the function to count link occurrenc
 And then run said function on all of our links:
 
     # use list comprehension to replace http:// with https://
-    clean_link_list = [x['link'].replace('http://','https://') for x in agg_links]
+    clean_link_list = [x['link'].replace('http://','https://').lower() for x in agg_links]
     link_freq = list_freq(clean_link_list)
     link_freq_df = pd.DataFrame(link_freq)
 
