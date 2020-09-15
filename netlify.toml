@@ -2,3 +2,15 @@
 package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = "dist"
+[[plugins]]
+package = "netlify-plugin-image-optim"
+[[plugins]]
+  package = "netlify-plugin-submit-sitemap"
+	[plugins.inputs]
+	baseUrl = "https://gregondata.com/"
+	sitemapPath = "/sitemap.xml"
+	providers = [
+		"google",
+		"bing",
+		"yandex"
+	]
