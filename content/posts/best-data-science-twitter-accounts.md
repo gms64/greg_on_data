@@ -46,6 +46,8 @@ date: 2020-09-14T19:17:57.500Z
 | Data Science Central | [analyticbridge](https://twitter.com/analyticbridge) | 3 | 222,341 | 139,734 | 4,232 | 
 
 
+**shoutout to the one semi-major twitter account that has linked my tweets so far 
+
 
 ## twitter time!
 
@@ -53,9 +55,11 @@ So I've never been an avid Twitter user in the past - I've gravitated to Reddit 
 
 Nonetheless, since I'm now using Twitter much more - and now that I have a Twitter account that I actually post on ([shameless plug to my profile](https://twitter.com/greg_on_data)) - I figured I should find the top data science Twitter accounts to follow.
 
-Realistically, I've found that I tend to follow people who seem like they have interesting insights to give.  Most of the time this tends to work - the only issue is with the incredibly promotional people who decide that tweet volume is more important than tweet content... If I find one of those, I end up unfollowing them.  Its an iterative process, but so far its been a winner...
+Realistically, I've found that I try to follow people who seem like they have interesting insights to give, but I end up mass following people.  A lot of those profiles end up being pretty cool - the only issue is with the incredibly promotional people who decide that tweet volume is more important than tweet content... If I find one of those, I end up unfollowing them.  Its an iterative process, but so far its been a winner...
 
-Back to the picture at hand - similar to my issue with [finding podcasts](/blog/best-data-science-podcasts/) and [newsletters](/blog/best-data-science-newsletters/) - there's also no one who decided to utilize web scraping to find good Data Science Twitter accounts. I'm sensing a pattern here...
+Back to the picture at hand: similar to my issue with [finding podcasts](/blog/best-data-science-podcasts/) and [newsletters](/blog/best-data-science-newsletters/), there was no one who decided to utilize web scraping to find good Data Science Twitter accounts. So I took it upon myself...
+
+I'm sensing a pattern here...
 
 ## gameplanning the process
 
@@ -63,9 +67,9 @@ You've now suffered through the section where I give you a personal view to rela
 
 The overall idea of this process is an amended version of the code I wrote for finding good newsletters. I actually have to go back and fix that code later (and rewrite the article), but new content is more fun. Shiny Object Syndrome, if you will.
 
-High level overview:
+Here's the high level overview:
 - Scrape Google Results for queries like 'best data science twitter accounts' to collect web  pages that Google links to
-- Get all links on each page (excluding internal links)
+- Get all external links on each page
 - Count the frequency of each link to find popular accounts
 - Scrape the Twitter accounts to get followers / following / tweets statistics
 
@@ -130,7 +134,7 @@ The list of Google queries feeding into this 'algorithm':
         {"string": 'data visualization twitter accounts'},
     ]
 
-Now let's crawl Google as a mobile user.  I ran into a problem with featured snippets, so I just skip them.  This is because *I am being lazy* and want to do this exercise for a lot of other types of media (youtube, courses, books). This is like... terrible in practice. 
+Now let's crawl Google as a mobile user.  I ran into a problem with featured snippets, so I just skip them.  This is because *I am being lazy* and want to do this exercise for a lot of other types of media (youtube, courses, books). This is like... terrible in practice, so... don't copy me here.
 
     # Crawling Google as a mobile user
     headers = {"user-agent" : MOBILE_USER_AGENT}
@@ -207,7 +211,7 @@ Now its time to scrape the results that we got from google.  We'll now switch to
         except:
             return None, 0
 
-With the 'crawler' defined, we can now loop through all of the links.  I'm adding a few data quality metrics to check out as we crawl - during development, I'd check these after each cycle to see success / failure on specific URLs.
+With the 'crawler' defined, we can now loop through all of the links.  I'm adding a few data quality metrics to check out as we crawl - during development, I'd check these after each test cycle to see success / failure on specific URLs.
 
     agg_links = []
     # define a few data quality checks for the loop
