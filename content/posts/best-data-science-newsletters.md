@@ -45,9 +45,9 @@ Or at least, the most often cited when looking through articles about data scien
 \*\* Paid Newsletter
 
 
-Note: This was collected by hand, because my web scraping gameplan didn't account for newsletters to go to multiple different links for the same newsletter... Could I have built some super cool algorithm to collect this? ...Maybe? But I didn't - instead I just collected links for about and hour or two and here we are.  Although the process was rather tedious, it probably provides a lot of value to you guys, so I'd say it was worth it.
+**Note**: This was collected by hand, because my web scraping gameplan didn't account for newsletters that go to multiple different links... Could I have built some super cool algorithm to collect this? ...Maybe? But I didn't. Instead, I just collected links for about and hour or two and here we are.  Although the process was rather tedious, it probably provides a lot of value to you guys, so I'd say it was worth it.
 
-##### honorable mention
+#### honorable mention
 
 These newsletters were mentioned one time each in the lists I was referencing. FYI to the two people who are combing through the source links wondering why **newsletter x** or **newsletter y** wasn't included - I took out newsletters where the links were no longer functional.
 
@@ -55,8 +55,7 @@ These newsletters were mentioned one time each in the lists I was referencing. F
 
 
 
-##### sources for the list
-
+#### sources for the list
 - https://www.dataquest.io/blog/best-data-science-newsletters/
 - https://www.springboard.com/blog/machine-learning-ai-and-data-science-newsletters/
 - https://towardsdatascience.com/13-essential-newsletters-for-data-scientists-remastered-f422cb6ea0b0
@@ -80,7 +79,7 @@ These newsletters were mentioned one time each in the lists I was referencing. F
 
 You've made it to the body of the article! Congratulations!
 
-I'm continuing my completely absurd crusade to find publications to subscribe to, so next up on the list I'm opting to look at newsletters.  My previous articles were about [twitter accounts](/blog/best-data-science-twitter-accounts/) and [podcasts](/blog/best-data-science-podcasts/), if you're inclined to check them out.
+In today's post, I'm continuing my completely absurd crusade to find publications to subscribe to - next up on my list is newsletters.  My previous articles were about [twitter accounts](/blog/best-data-science-twitter-accounts/) and [podcasts](/blog/best-data-science-podcasts/), if you're inclined to check them out.
 
 But similar to my views on podcasts, I love newsletters. I find them to be most useful for keeping up with all the cool, new developments in the fields that I'm interested in. Unlike other platforms - *cough* Twitter *cough* - where you get bogged down with a deluge of information, newsletters typically boil everything down into 5-10 bullet points per week (or month). And brevity is nice.
 
@@ -90,7 +89,7 @@ But similar to my views on podcasts, I love newsletters. I find them to be most 
 
 Anyways, you probably don't care about that, lets get on to the process.
 
-## the original plan - finding data science newsletters with web scraping
+## gameplanning the process
 
 So, off the back of some silly articles where I found popular twitter accounts and podcasts, I thought... what next? 
 
@@ -102,7 +101,7 @@ My first thought was to find a site that aggregates newsletter listings and esti
 
 Well, that's what I scoped out and built... unfortunately, I had to scrap the code because links to newsletters are inconsistent (in that some people link to a main site, some to a subscribe-specific link, a newsletter-hosting service, etc).  But since I did already build the code, I think its worth sharing... even if it looks like its held together with duct tape.
 
-## the original plan - the code
+## code to find top data science newsletters
 
 I'm going to throw the code below with a bit less than the standard amount of commentary.  Since it doesn't *actually* work, no one's really going to end up using it... probably?
 
