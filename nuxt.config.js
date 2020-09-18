@@ -1,3 +1,4 @@
+import getRoutes from "./utils/getRoutes";
 
 export default {
   mode: 'universal',
@@ -56,7 +57,8 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
   ],
   /*
   ** Build configuration
@@ -71,7 +73,25 @@ export default {
     extend (config, ctx) {
     }
   },
+  sitemap: {
+    hostname: 'https://gregondata.com',
+    trailingSlash: true,
+    exclude: [
+      '/admin/**'
+    ],
+    defaults: {
+      changefreq: 'daily',
+      priority: 0.8,
+      lastmod: new Date()
+    },
+    routes() {
+      return getRoutes();
+    },
+    path: '/sitemap.xml',
+    gzip: true,
+    generate: true,
+  },
   generate: {
     fallback: "404.html"
-  }
+  },
 }
