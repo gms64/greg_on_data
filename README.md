@@ -2,7 +2,7 @@
 
 Live site: https://gregondata.com/
 
-my personal website to muse on completely random subjects
+My personal website to muse on data science and other random subjects.
 
 ## Notes
 
@@ -19,11 +19,11 @@ Built with:
 - [illlustrations](https://illlustrations.co/)
 - A few other packages
 
-## How to set up your own blog using this as a template
+## If you want to use this template for your blog
 
-*To Do*
-
-- [ ] Document full process from cloning this repo to deploying on Netlify
+- Use this boilerplate template of my blog - https://github.com/gms64/nuxt-static-skeleton
+    - directions to get up and running are there
+- or: clone this repo and change variable yourself 
 
 ## Other Projects
 
