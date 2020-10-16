@@ -14,7 +14,8 @@
   export default {
     data() {
       return {
-        colors: ['light', 'dark', 'sepia']
+        // colors: ['light', 'dark', 'sepia']
+        colors: ['light', 'dark']
       }
     }
   }
