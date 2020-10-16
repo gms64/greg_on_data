@@ -23,8 +23,13 @@ Built with:
 
 - Use this boilerplate template of my blog - https://github.com/gms64/nuxt-static-skeleton
     - directions to get up and running are there
-- or: clone this repo and change variable yourself 
+- or: clone this repo and change variables yourself
 
 ## Other Projects
 
 - [Next Novel Project](https://nextnovelproject.com/)
+
+## Dumb Future Projects 
+
+- StackExchange Tags Analysis (view counts, users, etc)
+- Data Science Book-Related Stuff

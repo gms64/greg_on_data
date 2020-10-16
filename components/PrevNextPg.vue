@@ -5,10 +5,10 @@
   <div class="row between-xs m20">
     <div class="col-xs-6 start-xs">
       <span v-if="prevPg" class="u-pull-left">
-          <NuxtLink v-if="prevPg==1" :to="'/blog'">
+          <NuxtLink v-if="prevPg==1" :to="'/blog/'">
               Previous Page
           </NuxtLink>
-          <NuxtLink v-else :to="'/blog/page/'+prevPg">
+          <NuxtLink v-else :to="'/blog/page/'+prevPg+'/'">
               Previous Page
           </NuxtLink>
       </span>
@@ -19,7 +19,7 @@
       
       <NuxtLink
         v-if="nextPg"
-        :to="'/blog/page/'+nextPg"
+        :to="'/blog/page/'+nextPg+'/'"
       >
         Next Page
       </NuxtLink>
