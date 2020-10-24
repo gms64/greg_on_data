@@ -21,7 +21,7 @@ And here's a link to the <a target="_blank" href="https://docs.google.com/spread
 
 ## Roadmap
 
-Now, I need to figure out if its worth continuing down this rabbit hole and trying to tag books appropriately and keep them updated... (Any comments / suggestions would be much appreciated)
+Now, I need to figure out if its worth continuing down this rabbit hole, so any comments / suggestions would be much appreciated.
 
 If I do continue, my likely roadmap will be:
 
@@ -29,4 +29,5 @@ If I do continue, my likely roadmap will be:
 - Host the list somewhere so I can just make it interactive / filterable on my site. Or on another site if that's easier
 - Set up some forms for people to suggest books to add
 
+And if not, this is probably the end of the road for this little project.  But it'll at least be public on a google sheet, so anyone else can work with it!
 
