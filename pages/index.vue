@@ -44,6 +44,10 @@ export default {
       name: 'description',
       content: 'A personal data science blog meant to discuss the field at a high level.' },
       {
+          'property':  'og:url',
+          'content':  `https://gregondata.com/`,
+      },
+      {
           'property':  'og:title',
           'content':  `greg on data - a data science blog`,
       },
@@ -57,7 +61,7 @@ export default {
       },
       {
           'property':  'og:image',
-          'content': `/favicon/apple-touch-icon.png`
+          'content': `https://gregondata.com/favicon/apple-touch-icon.png`
       }
       ]
     };
