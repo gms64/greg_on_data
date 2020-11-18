@@ -448,6 +448,14 @@
   transition: max-height .2s ease-out;
 }
 
+.color-mode {
+  display: none;
+}
+
+.mobile-color-mode {
+  display: inline-block;
+}
+
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
@@ -527,6 +535,14 @@
   .header .menu-icon {
     display: none;
   }
+  .mobile-color-mode {
+    display: none;
+  }
+  .color-mode {
+    display: block;
+  }
+  
+  
 }
 
 

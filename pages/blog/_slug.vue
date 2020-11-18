@@ -32,6 +32,10 @@ import commentBox from 'commentbox.io';
             name: 'description',
             content: (this.article.seo_desc || this.article.preview) },
             {
+                'property':  'og:url',
+                'content':  `https://gregondata.com/blog/${this.article.slug}/`,
+            },
+            {
                 'property':  'og:title',
                 'content':  `${this.article.title}`,
             },
@@ -45,7 +49,7 @@ import commentBox from 'commentbox.io';
             },
             {
                 'property':  'og:image',
-                'content': `/favicon/apple-touch-icon.png`
+                'content': `https://gregondata.com/favicon/apple-touch-icon.png`
             }
         ]
         }

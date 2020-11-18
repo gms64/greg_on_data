@@ -59,6 +59,7 @@ export default {
   modules: [
     '@nuxt/content',
     '@nuxtjs/sitemap',
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration
