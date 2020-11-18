@@ -440,6 +440,7 @@
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  
 }
 
 .header .menu {
@@ -454,13 +455,14 @@
 
 .mobile-color-mode {
   display: inline-block;
+  float: right;
 }
 
 .header .menu-icon {
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 33px 22px;
   position: relative;
   user-select: none;
 }
