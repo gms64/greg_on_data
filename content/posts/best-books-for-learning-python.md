@@ -1,6 +1,6 @@
 ---
 title: finding the best books for learning python
-seo_title: Best Books for Learning Python in 2020
+seo_title: Best Books for Learning Python in 2021
 summary: Back with yet another article where I use web scraping to find some answers anyone else could find with a simple Google search. But I did it with data! Sort of...
 seo_desc: A collection of the top-rated Python & Python-related books, scraped from Goodreads!
 createdAt: 2020-11-17 18:00:00
@@ -63,6 +63,15 @@ And what's with the weird sorting, you ask? Well its a combination of average ra
 
 ## So which one should I read if I'm a beginner?
 
-So for now I'm actually going to just leave this question be. Its getting *rather* late as I write this.  I *do* plan on actually tackling this question soon though.
+So if we filter down the list above which books are primarily for beginners, you end up with a solid starting point:
 
+- <a href="https://www.goodreads.com/book/show/22514127-automate-the-boring-stuff-with-python" target="_blank">Automate the Boring Stuff with Python: Practical Programming for Total Beginners</a> by Al Sweigart (4.28 avg, 1,432 ratings)
+- <a href="https://www.goodreads.com/book/show/23241059-python-crash-course" target="_blank">Python Crash Course: A Hands-On, Project-Based Introduction to Programming</a> by Eric Matthes (4.35 avg, 976 ratings)
+- <a href="https://www.goodreads.com/book/show/80435.Learning_Python" target="_blank">Learning Python</a> by Mark Lutz (3.96 avg, 1,976 ratings)
+- <a href="https://www.goodreads.com/book/show/22847284-grokking-algorithms-an-illustrated-guide-for-programmers-and-other-curio" target="_blank">Grokking Algorithms An Illustrated Guide For Programmers and Other Curious People</a> by Aditya Y. Bhargava (4.41 avg, 1,576 ratings)
+- <a href="https://www.goodreads.com/book/show/14744694-python-for-data-analysis" target="_blank">Python for Data Analysis</a> by Wes McKinney (4.13 avg, 1,226 ratings)
+
+And those are only the top five books on there.  Grokking Algorithms is a bit more focused on the *computer science* aspects of coding rather than the python language, but it does use Python for its examples.  And Python for Data Analysis is basically focused on a python package called *pandas*, which is what any data scientist/analyst spends most of their day in. So if you're truly a beginner, focus on Automate the Boring Stuff, Python Crash Course, and Learning Python.
+
+And definitely keep an eye out for [humble bundles](https://www.humblebundle.com/level-up-your-python) - often you can get ~10 ebooks for $15.
 
