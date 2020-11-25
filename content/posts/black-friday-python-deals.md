@@ -7,7 +7,7 @@ createdAt: 2020-11-24 18:00:00
 date: 2020-11-24T19:17:57.500Z
 ---
 
-This is *not* going to be a complete list, by any stretch of the imagination, but I'm going to update this through the week as I come across deals that I feel should be here.  It's more geared toward python / data science than software engineers.  If there's a lot of interest in front-end deals, I may put something together on that.
+This is *not* going to be a complete list, by any stretch of the imagination, but I'm going to update this through the week as I come across deals that I feel should be here.  It's more geared toward python / data science than software engineering.  If there's a lot of interest in front-end deals, I may put something together on that.
 
 Oh, and none of these are affiliate links. Just like... links and stuff.
 
