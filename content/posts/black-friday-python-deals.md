@@ -9,7 +9,7 @@ date: 2020-11-24T19:17:57.500Z
 
 This is *not* going to be a complete list, by any stretch of the imagination, but I'm going to update this through the week as I come across deals that I feel should be here.  It's more geared toward python / data science than software engineering.  If there's a lot of interest in front-end deals, I may put something together on that.
 
-Oh, and none of these are affiliate links. Just like... links and stuff.
+Oh, and none of these are affiliate links. Just like... normal links and stuff.  If you want to pay me, throw me a follow on [Twitter](https://twitter.com/greg_on_data).
 
 ## courses / MOOCs
 
