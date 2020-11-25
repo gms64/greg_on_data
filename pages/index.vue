@@ -10,7 +10,7 @@
           <!-- Fancy Typed Text -->
         </h5>
         <p>
-          infrequently updated musings of a confused developer / data scientist
+          infrequently updated musings of a confused developer / data guy
         </p>
         <span class="sm-txt"><em>I wouldn't read too much into anything here...</em></span>
 
