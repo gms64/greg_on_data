@@ -4,7 +4,7 @@ seo_title: Shutting Down nextnovelproject
 summary: The end of an era.  A very short era, but still an era... probably.
 seo_desc: The end of an era.  A very short era, but still an era... probably.
 createdAt: 2021-04-17 18:00:00
-date: 2020-04-17T18:00:00.000Z
+date: 2021-04-17T18:00:00.000Z
 ---
 
 ## Shutting it down
